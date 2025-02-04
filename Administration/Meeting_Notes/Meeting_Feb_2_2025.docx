@@ -1,0 +1,11 @@
+
+Meeting 2/3/2025
+Thoughts
+-look at supply chain questions on where the networking devices come from the trustworthy
+-Blackbox testing to test the networking device for vulnerabilities
+-Use Azure to host machine or virtual machine or VM from school
+-Most networking devices run off of CentOS - do we want to do Kali or CentOS as shared environment
+-Firmware editor editor that simulates runtime of that if it's opensource firmware equipment - Bill Mahoney does some of this
+Milestone 1 is 14th on canvas - 2 weeks to work on it
+-Come up with a good plan for doing the work - project description, phased approach, what resources do we need (kali box), networking device, division of labor, how would we track testing, figure out meeting time for team work and project work
+End Deliverables - research paper, systematic approach to answer research question. Technical aspect such as showing work of the research paper (testing for vulns in networking devices)
