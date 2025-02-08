@@ -18,6 +18,7 @@ Include a table that identifies which team member will investigate each needed r
 ### Actual Resources Needed
 |Resource  | Dr. Hale needed? | Investigating Team member | Description |
 |-------------------|---------|---------------------------|-------------|
-|Shared Ubuntu VM| Yes | Corey | 2 Core - 8GB RAM - 50GB Drive - Internet Access  |
+|Shared Ubuntu VM| Yes | Corey | 4 Core - 16GB RAM - 60GB Drive - Internet Access  |
 |Cisco Packet Tracer| No | Corey | Cisco Packet Tracer for Linux VM|
+|GNS3| No | Corey | GNS3 for Linux VM|
 |Physical or Emulated Consumer Router| No | Corey | A consumer router with GUI for configuration examination and testing|
