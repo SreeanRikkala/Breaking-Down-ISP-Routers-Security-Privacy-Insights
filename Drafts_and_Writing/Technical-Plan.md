@@ -25,3 +25,22 @@ The procedures identified will be model specific, but the standard will apply to
 a networking environment virtually which demonstrates the mitigation of identified security gaps. Additional tests and procedures can be developed to fit the 
 scope of the semester. For example, additional tests could examine hardware data security, trial a real environment, or display examples of attacks
 being used against insecure equipment.
+
+#### Skeleton
+**Summary**
+
+**Simulated Network Environment**
+
+**Real Network Environment**
+
+**Configuration Examination**
+
+**Standard Development**
+
+**Procedure Development**
+
+**Procedure Testing**
+
+**Simulated Traffic**
+
+**Field Test**
