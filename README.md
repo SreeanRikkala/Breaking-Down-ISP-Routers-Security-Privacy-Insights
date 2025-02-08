@@ -2,7 +2,7 @@ Consumer networking devices are expanding at an accelerating rate, introducing m
 
 This research will look to see how best practices for data governance can be automated during the onboarding process of the devices as well as explore a way to make the process seamless to prevent user misconfiguration and minimize the reliance on the user’s knowledge. The objectives are as follows:
 - **Reduce User Dependency** 
-	-Minimize the reliance on the user's knowledge for applying proper security settings to consumer networking devices.
+	- Minimize the reliance on the user's knowledge for applying proper security settings to consumer networking devices.
 - **Increase Network Security** 
 	- Automate security configurations to enforce the strongest network security
 - **Protect Users Privacy**
