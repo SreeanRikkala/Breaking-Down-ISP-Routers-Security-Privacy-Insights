@@ -10,6 +10,6 @@ This research will look to see how best practices for data governance can be aut
 - **Standardize Best Practices** 
 	- Create a standard best practice for data governance for networking devices out-of-the-box to consistency between all networking devices.
 
-The proposed approach would require reviewing a consumer’s networking device and researching a way to make it more secure such as allowing automatic firmware updates, setting configuration of the network device to be the most secure settings, requiring default credentials to be changed, and strong password enforcement, more user friendly GUI.
+The proposed approach would require reviewing a consumer’s networking device and researching a way to make it more secure such as allowing automatic firmware updates, setting configuration of the network device to be the most secure settings, requiring default credentials to be changed, and strong password enforcement, more user friendly interface.
 
 The expected result of this research would significantly lessen the stress and end user experiences when they must set up a new networking device as well as grant them peace of mind that the device they set up is secure, and their network is private. This research could help to change the way consumer networking devices handle data governance and potentially make good data governance out of the box a new standard for networking devices.
