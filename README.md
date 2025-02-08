@@ -1,6 +1,6 @@
 Consumer networking devices are expanding at an accelerating rate, introducing more routers, modems, IoT devices, and other smart home devices into the typical consumers’ home network. These devices often rely on consumers’ knowledge to apply the proper security configuration for a strong network. Relying on consumers’ knowledge can lead to poor data governance, privacy concerns, vulnerabilities, and insecure networks. It is imperative that the best practices for data governance are in place to protect users’ data and keep their networks private.
 
-This research will look to see how best practices for data governance can be automated during the onboarding process of the devices as well as explore a way to make the process seamless to prevent user misconfiguration and minimize the reliance on the user’s knowledge. The objectives are as follows
+This research will look to see how best practices for data governance can be automated during the onboarding process of the devices as well as explore a way to make the process seamless to prevent user misconfiguration and minimize the reliance on the user’s knowledge. The objectives are as follows:
 - **Reduce User Dependency** 
 	-Minimize the reliance on the user's knowledge for applying proper security settings to consumer networking devices.
 - **Increase Network Security** 
