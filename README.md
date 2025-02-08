@@ -4,9 +4,9 @@ This research will look to see how best practices for data governance can be aut
 - **Reduce User Dependency** 
 	- Minimize the reliance on the user's knowledge for applying proper security settings to consumer networking devices.
 - **Increase Network Security** 
-	- Automate security configurations to enforce the strongest network security
+	- Automate security configurations to enforce the strongest network security.
 - **Protect Users Privacy**
-	- Automate privacy settings to ensure data is private
+	- Automate privacy settings to ensure data is private.
 - **Standardize Best Practices** 
 	- Create a standard best practice for data governance for networking devices out-of-the-box to consistency between all networking devices.
 
