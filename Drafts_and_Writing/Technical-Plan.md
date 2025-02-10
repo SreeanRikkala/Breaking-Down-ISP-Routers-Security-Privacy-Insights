@@ -60,4 +60,6 @@ to emulate a virtual environment. However, through examination of technical spec
 on the physical consumer router. For network related items in the standard and procedure we have created, this will allow us to showcase that our proposed changes sufficiently address the security gaps identified.
 
 ## Real Network Environment
-If time permits, our standards and procedures can be tested a real environment to demonstrate real-life applications...
+If time permits, our standards and procedures can be tested on a real environment to demonstrate a real-world application. This would be done by taking a physical model of our chosen networking device and configuring it in a home network. After following our 
+procedures, we would then verify that the device aligns to our standards and identify any potential gaps in coverage. This report would require access to a user's home network. If not feasible, or denied due to privacy concerns, a small home network using 
+personal computers can be simulated in a real-world scenario. 
