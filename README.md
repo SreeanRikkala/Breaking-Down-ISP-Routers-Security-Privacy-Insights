@@ -34,7 +34,9 @@ Our literature review followed a **thematic analysis method** with a systematic 
 
 #### **PRISMA Technique**
 We used PRISMA technique for screening the research papers and to achieve clear inclusion/exclusion criteria.
-![PRISMA Flowchart](Miscellaneous/prisma.png)
+<div align="center">
+    <img src="Miscellaneous/prisma.png" alt="PRISMA Flowchart" width="60%">
+</div>
 #### Documentation
 #### **Annotated Bibliography (`annotated-bibliography.doc`)**
 #### **Literature Review (`literature-review.doc`)**
