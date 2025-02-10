@@ -63,14 +63,3 @@ on the physical consumer router.
 
 ## Real Network Environment
 
-## Configuration Examination
-
-## Standard Development
-
-## Procedure Development
-
-## Procedure Testing
-
-**Simulated Traffic**
-
-**Field Test**
