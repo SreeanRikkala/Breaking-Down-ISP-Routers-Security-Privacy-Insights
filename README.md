@@ -27,3 +27,14 @@ The expected result of this research would significantly lessen the stress and e
 |Missed deadline (18) | 6 | 3 | Deadlines might be missed. A natural consequence of any group project is member avilability. Life circumstances can shift focus away from this class, causing deliverables to miss their deadlines. |
 |Firmware EULAs (16) | 2 | 8 | Legal restrictions may prevent us from researching firmware of existing network devices. It is unclear what questions can be answered through white papers alone. The network topology of marketed home network devices may only be discoverable through the decompiling of their firmware. The team is fully dedicated to upholding the law and honor all EULAs. Because of this, the team may hit legal roadblocks when researching home network firmware. |
 |Low user satisfaction (10) | 2 | 5 | The finalized PoC may have low user satisfaction. The onboarding process of our PoC would be longer and more complicated than that of existing network devices on the market. The risk is that our extended onboarding process will require a level of technical knowledge that confuses and frustrates our target audience of everyday home network users. Low satisfaction would be predictable, but not based on any empirical evaluations because the team has no plans for collecting user feedback. |
+
+## Project Methodology
+### Literature Review
+Our literature review followed a **thematic analysis method** with a systematic approach to identify, analyze, and synthesize relevant literature on consumer networking device security. This involved a comprehensive review of academic publications, technical documentation, and industry standards published between **2002 and 2023**.
+
+#### **PRISMA Technique**
+We used PRISMA technique for screening the research papers and to achieve clear inclusion/exclusion criteria.
+Link to image-
+#### Documentation
+#### **Annotated Bibliography (`annotated-bibliography.doc`)**
+#### **Literature Review (`literature-review.doc`)**
