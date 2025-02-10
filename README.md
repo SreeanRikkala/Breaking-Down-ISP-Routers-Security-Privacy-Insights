@@ -28,6 +28,7 @@ The expected result of this research would significantly lessen the stress and e
 |Firmware EULAs (16) | 2 | 8 | Legal restrictions may prevent us from researching firmware of existing network devices. It is unclear what questions can be answered through white papers alone. The network topology of marketed home network devices may only be discoverable through the decompiling of their firmware. The team is fully dedicated to upholding the law and honor all EULAs. Because of this, the team may hit legal roadblocks when researching home network firmware. |
 |Low user satisfaction (10) | 2 | 5 | The finalized PoC may have low user satisfaction. The onboarding process of our PoC would be longer and more complicated than that of existing network devices on the market. The risk is that our extended onboarding process will require a level of technical knowledge that confuses and frustrates our target audience of everyday home network users. Low satisfaction would be predictable, but not based on any empirical evaluations because the team has no plans for collecting user feedback. |
 
+
 ## Project Methodology
 ### Literature Review
 Our literature review followed a **thematic analysis method** with a systematic approach to identify, analyze, and synthesize relevant literature on consumer networking device security. This involved a comprehensive review of academic publications, technical documentation, and industry standards published between **2002 and 2023**.
@@ -37,6 +38,7 @@ We used PRISMA technique for screening the research papers and to achieve clear 
 <div align="center">
     <img src="Miscellaneous/prisma.png" alt="PRISMA Flowchart" width="60%">
 </div>
+
 #### Documentation
-#### **Annotated Bibliography (`annotated-bibliography.doc`)**
-#### **Literature Review (`literature-review.doc`)**
+ **Annotated Bibliography (`annotated-bibliography.doc`)**
+ **Literature Review (`literature-review.doc`)**
