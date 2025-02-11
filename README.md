@@ -40,5 +40,5 @@ We used PRISMA technique for screening the research papers and to achieve clear 
 </div>
 
 #### Documentation
-**Annotated Bibliography (`annotated-bibliography.doc`)**
+**[View Annotated Bibliography](References_Citations)** 
 **[View Literature Review](Research_Materials/Lit-review.docx)**  
