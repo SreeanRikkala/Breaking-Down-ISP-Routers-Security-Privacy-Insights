@@ -40,5 +40,5 @@ We used PRISMA technique for screening the research papers and to achieve clear 
 </div>
 
 #### Documentation
- **Annotated Bibliography (`annotated-bibliography.doc`)**
- **Literature Review (`literature-review.doc`)**
+**Annotated Bibliography (`annotated-bibliography.doc`)**
+**[View Literature Review](https://github.com/SreeanRikkala/vulnerabilities-in-consumer-networking-equipment/blob/49522e06248b6278ff18e94607feecf32145b82d/Research_Materials/Lit-review.docx)**  
