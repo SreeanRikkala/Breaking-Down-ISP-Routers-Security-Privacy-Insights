@@ -1,0 +1,47 @@
+Ryan King:
+What is our research question?
+Idea #1: [Original] Find vulnerabilities for an out-of-the-box router firmware. Dr. Hale liked this idea, but it is scoped broadly. What router? Why that router?
+Idea #2: [Ryan] Make a PoC of a router onboarding process that applies more data governance principles than the factory default. Simulate attacks on the PoC to prove its effectiveness.
+Idea #3: [Alex] Experiment and see how we can harden a hardware router, and pen-test it.
+Idea #4: [Sreean] How can the SDLC (Software Development Life Cycle) be improved for home networks? Tech deliverable would be a GUI.
+
+Alexandria: 
+
+-lifecycle - Design/manufacturing (chipset selection, default data governance, compliance with standards) - Initial setup, default security configs, ISP configs, how data is handled on first start - Maintenance, firmware updates, monitoring and logging, user config control, vendor support (support, length of update), -End-of Life & Decommission - residual data, vendor EOL policies, second-hand device, disposal and recycling
+-Best preferred router based on cost and recommendation of routers and review configurations - Sreean
+-Review different brands of router and rate them on who has the best SDLC, can use whitepapers to gather most of that data - Ryan
+-Consumer friendly resource that details vulnerabilities and informs user how they can take better control of their network - Corey
+-Xfinity, Spectrum, AT&T, Cox - biggest ISPs
+- I also think since this is 2 months roughly we should probably keep scope to ISP provided routers and if there's extra time maybe add in others. From what I researched it seems it's more likely users use the ISP provided routers so it's most beneficial for the socpe anyways. We could provide some third-party approved alternatives if we have extra time, especially if we find the perferred ISP router is extra bad
+- Lit - researching the actual vulnerabilities routers typically have and challenges consumers face with network security from their routers, implement the lifecycle, how often patches are done, ISPs involvement.
+- Tech - Create grading scale to review the top ISPs routers, compare them, document findings, produce in webpage in friendly format
+- New title for project, i found and combined these that sound nice "Breaking Down ISP Routers: Security, Privacy & Performance Insights" or "Router Reality Check: Evaluating ISP-Provided Devices for Security & Usability"
+- Literacy Research:
+studies that evaluate the security features of consumer routers
+- Router Security:
+Vulnerabilities in ISP routers ( firmware, passwords, etc)
+Security hardening techniques
+Common attack vectors
+Firmware update cadence
+
+Router Usability:
+UI design
+Router setup complexity
+Customer satisfaction with ISP routers
+Restrictions and customization ability
+
+Performance:
+wi-fi standards and impacts on performance
+Router speed
+
+Privacy:
+Telemetry
+Data collection (selling data, monitoring)
+
+regulatory frameworks around ISP-provided equipment
+
+
+
+Ryan King: 
+Review SDLC of three out-of-box routers from the top three ISPs. Determine correlation between price and security - Corey
+
