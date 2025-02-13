@@ -19,7 +19,7 @@ The expected result of this research would significantly lessen the stress and e
 <br>
 
 ## Proposed Project Timeline
-Placeholder
+![image](https://github.com/user-attachments/assets/bbafcf73-e368-4299-8967-62daef4c0a2f)
 <br>
 
 ## Risk List
