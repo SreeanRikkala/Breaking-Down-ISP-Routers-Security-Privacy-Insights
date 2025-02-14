@@ -70,35 +70,15 @@ Once we have properly defined our evaluation criteria, we can begin our data col
 The selection of routers will be done via publicly available "supported routers" lists from the most common ISPs in the United States. A sample of consumer routers will be chosen from each price point and internet connection type. If the data collection and 
 analysis portion of this project proves too time consuming, routers from the most widely adopted connection types will be prioritized. The evaluation of router specifications and GUIs will be done via publicly available manuals and specification sheets. Devices 
 which do not support this evaluation method will not be prioritized for analysis. The data gathered from these manuals and sheets will be compared against our criteria. If needed, the criteria may be updated if it proves insufficient in covering any gaps which may 
-be uncovered during our analysis. 
+be uncovered during our analysis. From our comparison, all routers will receive a final "grade" that will be reviewed by each member of our research group.
 
-### Development of Webpage
-The guided configuration will be a proof of concept to showcase how a consumer networking device can be made more secure while maintaining user-friendly features. Depending on the remaining length of the semester, this will either be a series of images and diagrams or a simulated web GUI. 
-The guided configuration will showcase features such as simple VLANs, the creation of a guest network, disabling unnecessary features, and other steps as showcased in the developed standard and procedures. The guided configuration will also be annotated in such a way as to inform the reader
-of what configurations would be set on the device if it were a real hardware environment. Any deviations from our standard or procedure will be documented to show gaps in coverage.
+### Development of Website
+The final, refined results of our research will be displayed on a publicly available website. This website will contain the results of our analysis, provide insights into consumer router security, and present helpful tips for securing a home network. The website will 
+be coded and presented using a not-yet chosen front-end framework. Since the website will contain mostly static images and text, it will not require a back-end development platform. The website will be created with the consumer in mind, and it intends to be simple and informational. 
 
 ### Final Results and Review
-The simulated network environment will be created virtually. Depending on needs, this could be created in one of two ways:
-1. Using GNS3 on a virtual Ubuntu Linux machine
-2. Using Cisco's Packet Tracer
-
-Our preferred method is method 1. Method 1 would allow us to create a virtual network topology as complex as needed using a free, open-source tool. GNS3's network simulation will then 
-allow us to showcase how the created standard protects data on the consumer's network. There are limitations to this software, however, as it will only simulate the network topology. Configuration changes which affect 
-how one interacts with the device physically will not be able to be simulated. In order to ensure all teammates can access and utilize GNS3, we will host the executable on an Ubuntu Virtual Machine utilizing 
-the University of Nebraska at Omaha's VMware infrastructure. One of our technical implementers will ensure the device is configured appropriately and that proper data backup procedures are being followed to prevent loss of
-configuration data. 
-
-Method 2 can be used in a similar manner, but it will have less features available. Cisco's Packet Tracer would allow us to only simulate a network using Cisco's devices, and it is not as feature rich as GNS3. An example of loss functionality would be the 
-inability to access simulated GUIs. 
-
-The obvious drawback to these methodologies is that we would not be simulating the environment using actual consumer equipment. Unfortunately, many consumer networking equipment manufacturers do not include virtual machines which can be used
-to emulate a virtual environment. However, through examination of technical specfications, available GUIs, and networking knowledge, we will be able to build a virtual environment which is logically equivalent to configuration changes made
-on the physical consumer router. For network related items in the standard and procedure we have created, this will allow us to showcase that our proposed changes sufficiently address the security gaps identified.
-
-### Real Network Environment
-If time permits, our standards and procedures can be tested on a real environment to demonstrate a real-world application. This would be done by taking a physical model of our chosen networking device and configuring it in a home network. After following our 
-procedures, we would then verify that the device aligns to our standards and identify any potential gaps in coverage. This report would require access to a user's home network. If not feasible, or denied due to privacy concerns, a small home network using 
-personal computers can be simulated in a real-world scenario. 
+Until the weeks before termination of our project timeline, our research, analysis, and website development will be in constant refinement. Our project aims to present objective and informative insights into the current state of consumer router security and privacy. In order to achieve 
+this end, our criteria and determinations must be continually re-evaluated when new evidence or insights are brought to light. 
 
 ## Resources Needed
 |Resource  | Dr. Hale needed? | Investigating Team member | Description |
