@@ -49,30 +49,35 @@ We used PRISMA technique for screening the research papers and to achieve clear 
 
 ## Technical Plan
 ### Summary
-The technical deliverable for this project will be the results of the prototyping, implementation, and testing of standards created from our research deliverable. The research deliverable will 
-identify potential security gaps in the consumer networking equipment lifecycle. Taking the results of this research as it develops will allow us to create our primary deliverable: a consumer-friendly standard with procedures 
-for securing a certain model of consumer networking equipment. The standard will be demonstrated with a guided configuration during onboarding which will allow the user to maximize their network security. **This configuration will be a user experience demonstration only**. It will not actually configure a device. 
-Creating a fully working model utilizing device hardware would be outside the scope of the semester. 
+The technical deliverable for this project will be a website containing the results of our research and analysis of common consumer routers. This website will contain easily readable information regarding our research 
+with the intent of informing consumers of potential security flaws that may exist in their network. Additionally, this website will contain the results of our analysis on a sample of common consumer routers which are supported 
+by major Internet Service Providers (ISPs) in the United States. The details of our analysis will be readily available, and it will involve a developed list of criteria sourced from our research. The purpose of this deliverable 
+is to provide an objective, informative, and useful website to bolster security literacy amongst consmers. 
 
-The developed procedure will be verified using a simulated networking environment to demonstrate the mitigation of identified security gaps. Additional tests and procedures can be developed to 
-fit the scope of the semester and showcase the effectiveness of the proposed controls. For example, additional tests could examine harddrive data security, field test a real environment, or display examples of attacks being used against insecure default equipment.
+### Development of Evaluation Criteria
+Parallel to the research plan, we will begin creating our evaluation criteria. Our evaluation criteria will take the results of the research plan to identify core aspects of router security, usability, consumer privacy, and value. For example, 
+core aspects of "security" could include patching cadence, manufacturer responses to vulnerabilities, and secure defaults out of the box. The criteria will be scoped to cover essential components of each category, but they will also be refined a limited 
+scope to avoid breaching the project's timeline.
 
-### Development of Standard
-Parallel to the research plan, we will begin creating our standard. Our standard will take the results of the research plan to begin creating necessary configurations needed to secure a consumer networking device. The standard will prioritize
-secure default settings for a number of common consumer networking device features. The standard will attempt to ensure that consumers have the ability to customize the device to their needs while keeping consumer data privacy and security 
-as the top priority. The standard will attempt to address all major security gaps that we identify in our research. Any exceptions will be noted and documented to explain lack of coverage.
+### Data Collection and Testing
+Once we have properly defined our evaluation criteria, we can begin our data collection process. Our process will roughly follow these stages:
+1. Selection of Routers
+2. Evaluation of Router Specifications
+3. Evaluation of Router GUI
+4. Scoring Based on Findings
+5. Final Consensus
 
-### Development of Procedures
-In order to showcase the feasibility of our standard, we will use it to define a set of procedures for a specific consumer networking device model. This set of procedures will attempt to fully align with our standard. If there are any gaps in coverage, they will be documented
-as a potential gap in consumer networking device security, or the standard will be revised due to feasibility restraints. Any exceptions, changes, or noticeable deviations will be documented. The set of procedures will be specific enough that a non-technical individual will be 
-able to recreate them in an identical environment.
+The selection of routers will be done via publicly available "supported routers" lists from the most common ISPs in the United States. A sample of consumer routers will be chosen from each price point and internet connection type. If the data collection and 
+analysis portion of this project proves too time consuming, routers from the most widely adopted connection types will be prioritized. The evaluation of router specifications and GUIs will be done via publicly available manuals and specification sheets. Devices 
+which do not support this evaluation method will not be prioritized for analysis. The data gathered from these manuals and sheets will be compared against our criteria. If needed, the criteria may be updated if it proves insufficient in covering any gaps which may 
+be uncovered during our analysis. 
 
-### Development of Guided Configuration
+### Development of Webpage
 The guided configuration will be a proof of concept to showcase how a consumer networking device can be made more secure while maintaining user-friendly features. Depending on the remaining length of the semester, this will either be a series of images and diagrams or a simulated web GUI. 
 The guided configuration will showcase features such as simple VLANs, the creation of a guest network, disabling unnecessary features, and other steps as showcased in the developed standard and procedures. The guided configuration will also be annotated in such a way as to inform the reader
 of what configurations would be set on the device if it were a real hardware environment. Any deviations from our standard or procedure will be documented to show gaps in coverage.
 
-### Simulated Network Environment
+### Final Results and Review
 The simulated network environment will be created virtually. Depending on needs, this could be created in one of two ways:
 1. Using GNS3 on a virtual Ubuntu Linux machine
 2. Using Cisco's Packet Tracer
@@ -98,8 +103,9 @@ personal computers can be simulated in a real-world scenario.
 ## Resources Needed
 |Resource  | Dr. Hale needed? | Investigating Team member | Description |
 |-------------------|---------|---------------------------|-------------|
-|Shared Ubuntu VM| Yes | Corey | 4 Core - 16GB RAM - 60GB Drive - Internet Access  |
+|Shared Ubuntu VM| Yes | Corey | 4 Core - 16GB RAM - 60GB Drive - Internet Access|
 |Cisco Packet Tracer| No | Corey | Cisco Packet Tracer for Linux VM|
 |GNS3| No | Corey | GNS3 for Linux VM|
 |Physical or Emulated Consumer Router| No | Corey | A consumer router with GUI for configuration examination and testing|
+|Azure Web Server| No | Corey | Web server for hosting site contents|
 
