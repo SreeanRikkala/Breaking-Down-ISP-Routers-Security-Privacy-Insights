@@ -40,7 +40,7 @@ The expected result of this research would significantly lessen the stress and e
 
 ## Project Methodology
 ### Literature Review
-Our literature review followed with a systematic approach to identify, analyze, and synthesize relevant literature on consumer networking device security. This involved a comprehensive review of academic publications, technical documentation, and industry standards.
+Our literature review followed with a systematic approach to identify, analyze, and synthesize relevant literature on ISP router security. This involved a comprehensive review of academic publications, technical documentation, and industry standards.
 
 **Keywords Used for literature search:** ISP router security, SOHO router vulnerabilities, Router hardening automation, Smart home security, IoT router security, Router security standardization.
 
