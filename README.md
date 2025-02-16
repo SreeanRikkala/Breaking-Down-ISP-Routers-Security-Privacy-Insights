@@ -40,9 +40,10 @@ The expected result of this research would significantly lessen the stress and e
 
 ## Project Methodology
 ### Literature Review
-Our literature review followed a **thematic analysis method** with a systematic approach to identify, analyze, and synthesize relevant literature on consumer networking device security. This involved a comprehensive review of academic publications, technical documentation, and industry standards published between **2002 and 2023**.
+Our literature review followed with a systematic approach to identify, analyze, and synthesize relevant literature on consumer networking device security. This involved a comprehensive review of academic publications, technical documentation, and industry standards.
 
 **Keywords Used for literature search:** ISP router security, SOHO router vulnerabilities, Router hardening automation, Smart home security, IoT router security, Router security standardization.
+
 #### **PRISMA Technique**
 We used PRISMA technique for screening the research papers and to achieve clear inclusion/exclusion criteria.
 <div align="center">
