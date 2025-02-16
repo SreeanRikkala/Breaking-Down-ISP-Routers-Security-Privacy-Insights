@@ -13,7 +13,7 @@ Our research will focus on analyzing common security vulnerability in ISP router
   	- Measure useful factors such as Wi-Fi speed and coverage
 - **Evaluate Cost**
   	- Review rental cost versus purchase cost and hidden fees
-- **Give Recommenadations to Consumers That are Actionable**
+- **Give Actionable Recommendations**
   	- Provide steps the user can follow to update their firmware if it's out of date or change default password based on the metrics from the router that was analyzed.
 - **Post Findings on a Website** 
 	- Compile all the research and findings in a user friendly way on a webpage that includes detailed analysis and security tips. 
