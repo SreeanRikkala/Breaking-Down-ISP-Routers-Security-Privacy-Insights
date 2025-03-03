@@ -104,3 +104,7 @@ Breaking-Down-ISP-Routers-Security-Privacy-Insights/
 
 ---
 
+## Credits
+Used Canva for editing website [design](https://www.canva.com/design/DAGgcECzDpM/i4bsXgCbwQMbT6isTZ9_nA/edit?utm_content=DAGgcECzDpM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+elements. 
+

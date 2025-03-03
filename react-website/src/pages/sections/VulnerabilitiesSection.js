@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 const VulnerabilitiesSection = () => {
     const [selectedVuln, setSelectedVuln] = useState(null);
-
     const vulnList = [
         {
             id: 'vuln1',
