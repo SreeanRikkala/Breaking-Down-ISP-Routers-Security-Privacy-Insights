@@ -10,7 +10,7 @@ Before setting up the project, ensure you have the following installed:
 - [Node.js (LTS version)](https://nodejs.org/)
 - [npm](https://www.npmjs.com/) or  [Yarn](https://yarnpkg.com/)
 
----
+
 
 ## Cloning the Repository
 To download the project, run:
@@ -20,7 +20,7 @@ git clone https://github.com/yourusername/Breaking-Down-ISP-Routers-Security-Pri
 cd Breaking-Down-ISP-Routers-Security-Privacy-Insights/react-app
 ```
 
----
+
 
 ## Installing Dependencies
 Once inside the `react-website` directory, install all required dependencies:
