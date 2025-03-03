@@ -16,8 +16,8 @@ Before setting up the project, ensure you have the following installed:
 To download the project, run:
 
 ```sh
-git clone https://github.com/yourusername/Breaking-Down-ISP-Routers-Security-Privacy-Insights.git
-cd Breaking-Down-ISP-Routers-Security-Privacy-Insights/react-app
+git clone https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights.git
+cd Breaking-Down-ISP-Routers-Security-Privacy-Insights/react-website
 ```
 
 
@@ -29,6 +29,11 @@ Once inside the `react-website` directory, install all required dependencies:
 ```sh
 npm install
 ```
+
+If you need to update Node.js, ensure you find an appropriate way to update for you machine.
+One way to update is:
+`npm install -g n`
+`n stable`
 
 ### Using Yarn
 ```sh
