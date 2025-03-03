@@ -59,7 +59,6 @@ A quick look at our documentation and code structure:
 
 ```
 Breaking-Down-ISP-Routers-Security-Privacy-Insights/
-│── .idea/ (IDE config files)
 │── Administration/
 │── Drafts_and_Analysis/
 │── Drafts_and_Writing/
