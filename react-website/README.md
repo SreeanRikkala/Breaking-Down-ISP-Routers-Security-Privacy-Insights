@@ -35,7 +35,7 @@ npm install
 yarn install
 ```
 
----
+
 
 ## Running the Development Server
 Start the application in development mode:
@@ -52,7 +52,7 @@ yarn start
 
 The application should now be accessible at `http://localhost:3000/` in your browser.
 
----
+
 
 ## Folder Structure
 A quick look at our documentation and code structure:
@@ -78,7 +78,7 @@ Breaking-Down-ISP-Routers-Security-Privacy-Insights/
 
 ```
 
----
+
 
 ## Troubleshooting
 ### Common Issues & Fixes
@@ -102,7 +102,7 @@ Breaking-Down-ISP-Routers-Security-Privacy-Insights/
       npm -v
       ```
 
----
+
 
 ## Credits
 Used Canva for editing website [design](https://www.canva.com/design/DAGgcECzDpM/i4bsXgCbwQMbT6isTZ9_nA/edit?utm_content=DAGgcECzDpM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
