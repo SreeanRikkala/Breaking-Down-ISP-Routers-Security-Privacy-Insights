@@ -19,7 +19,7 @@ We’ve followed a research methodology aligned with best practices from:
 
 - System Usability Scale (SUS)
 
-Core Methodological Steps Completed So Far:
+Methodological Steps Completed So Far:
 
 - Defined quantifiable security metrics based on research-backed standards.
 
@@ -27,8 +27,10 @@ Core Methodological Steps Completed So Far:
 
 - Established a research-informed performance evaluation method (via extracting data from documents & third-party benchmarks).
 
-- Outlined usability evaluation using SUS scoring.
+- Created base website
 
+- Started research paper
+  
 - Structured router reviews into four main categories: Security, Usability, Performance, Cost.
 
 
