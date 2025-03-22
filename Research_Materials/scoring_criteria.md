@@ -1,14 +1,14 @@
 
 # Scoring Criteria: Router Evaluation
 
-Each router is scored from 0–10 for every subcategory, based on objective or documented information.
+Each router is scored from 0–10 for every subcategory based on objective or documented information.
 
 ## Security Criteria
 
 ### Default Credentials Enforced
 - 10 = Requires unique password on first use
 - 5 = Uses default password but prompts for change
-- 0 = Uses static default credentials with no enforcement
+- 0 = Uses default credentials 
 
 ### Firmware Update Frequency
 - 10 = ≥4 security updates per year
@@ -26,7 +26,7 @@ Each router is scored from 0–10 for every subcategory, based on objective or d
 - 0 = No WPA3 support
 
 ### Remote Access Disabled by Default
-- 10 = All remote mgmt off by default
+- 10 = All remote management off by default
 - 5 = Enabled but behind authentication
 - 0 = Exposed without security
 
@@ -46,26 +46,25 @@ Each router is scored from 0–10 for every subcategory, based on objective or d
 - 0 = No isolation possible
 
 ### Automatic Security Updates
-- 10 = Enabled by default and cryptographically signed
+- 10 = Enabled by default
 - 5 = Manual updates required
 - 0 = No update mechanism
 
 ## Usability Criteria
 
 ### Setup Time
-- 10 = ≤5 minutes with app or guide
-- 5 = 6–15 minutes
-- 0 = >15 minutes or unclear steps
+- 10 = ≤20 minutes with app or guide
+- 5 = 25–30 minutes
+- 0 = >30 minutes or unclear steps
 
 ### Lifespan
 - 10 = >5 years support & updates
-- 5 = 2–4 years
+- 5 = 2–4 years support & updates
 - 0 = <2 years or discontinued
 
 ### Drivers / Compatibility
-- 10 = Broad OS support, updated regularly
-- 5 = Limited OS/device support
-- 0 = Outdated or no downloadable drivers
+- 10 = No additional drivers needed
+- 0 = Additional drivers required
 
 ### Website Support
 - 10 = Full guides, manuals, and FAQ available
@@ -81,13 +80,13 @@ Each router is scored from 0–10 for every subcategory, based on objective or d
 
 ### Signal Strength
 - 10 = Strong signal at 30+ ft
-- 5 = Moderate signal
+- 5 = Moderate signal at 30+ ft
 - 0 = Poor coverage
 
 ### Latency & Jitter
-- 10 = <10ms under load
-- 5 = 10–30ms
-- 0 = >30ms or inconsistent
+- 10 = 10ms 
+- 5 = 10–100ms
+- 0 = >100ms 
 
 ### Multi-Device Handling
 - 10 = 10+ devices with no slowdown
@@ -103,7 +102,7 @@ Each router is scored from 0–10 for every subcategory, based on objective or d
 
 ### Buyout Option
 - 10 = Full ownership or third-party router allowed
-- 5 = Only ISP-approved models
+- 5 = Only ISP approved models
 - 0 = Locked to ISP rental only
 
 ### Hidden Fees

@@ -2,10 +2,10 @@
 # Project Methodology: ISP Router Evaluation
 
 ## Project Overview
-This project evaluates ISP-provided and compatible consumer routers using a quantifiable scoring framework across four core categories: Security, Usability, Performance, and Cost.
+This project evaluates ISP provided and compatible third party consumer routers using a quantifiable scoring framework across four core categories: Security, Usability, Performance, and Cost.
 
 ## Objectives
-- Identify key evaluation criteria based on best practices and industry standards.
+- Identify evaluation criteria based on best practices and industry standards.
 - Create a scoring matrix to evaluate routers consistently.
 - Present results in a way that empowers consumers to understand their router's strengths and weaknesses.
 
@@ -23,7 +23,7 @@ Our methodology is grounded in the following:
 - Heuristic Evaluation (Nielsen)
 
 ## Evaluation Framework
-We score routers in four categories:
+We score four categories:
 
 | Category     | Weight |
 |--------------|--------|
@@ -33,14 +33,14 @@ We score routers in four categories:
 | Cost         | 8%     |
 
 ## Weighting Justification
-Security was prioritized due to its critical role in protecting home networks and data. Performance and usability were included based on their impact on consumer satisfaction, while cost considerations were included with lower weight to reflect long-term value without compromising security.
+Security was prioritized due to its critical role in protecting data. Performance and usability were included based on their impact on satisfaction, while cost is included with lower weight to reflect value.
 
 ## Data Sources
-Due to the lack of physical access to devices, all scoring is based on:
+Because of the lack of physical access to devices, all scoring is based on:
 - Official ISP and manufacturer documentation
-- Public vulnerability databases (e.g., CVE records)
+- Public vulnerability databases 
 - Third-party benchmark reviews
-- User-reported performance from forums (used cautiously)
+- User reported performance from forums
 
 ## Limitations
 - Certain internal security features could not be verified (e.g., secure boot)
