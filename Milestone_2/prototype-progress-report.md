@@ -1,7 +1,7 @@
 # Progress Report (03/22/2025)
 ## Overview
 
-We’ve followed a research-driven methodology aligned with best practices from:
+We’ve followed a research methodology aligned with best practices from:
 
 - NIST 8425A (Security Requirements for Consumer Routers)
 
@@ -25,7 +25,7 @@ Core Methodological Steps Completed So Far:
 
 - Created a weighted scoring system for router evaluation.
 
-- Established a research-informed performance evaluation method (via spec mining & third-party benchmarks).
+- Established a research-informed performance evaluation method (via extracting data from documents & third-party benchmarks).
 
 - Outlined usability evaluation using SUS scoring.
 
