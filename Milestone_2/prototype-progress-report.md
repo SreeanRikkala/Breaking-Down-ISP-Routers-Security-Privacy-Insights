@@ -62,8 +62,8 @@ Methodological Steps Completed So Far:
 | Deliverable | Description | Format |
 | --- | --- | --- |
 | Evaluated_Router_Matrix | Quantifiable scoring system with weighted criteria | .docx |
-| Quantifiable_Security_Grid | Researched-backed framework for evaluating routers | .docx |
-| Web Structure Draft | One-page site layout with comparison, search, and recommendations |  |
+| Quantifiable_Security_Grid | Researched backed framework for evaluating routers | .docx |
+| Web Structure Draft | One page site layout with comparison, search, and recommendations |  |
 | Literature Review Summary | Summarized References from NIST, IEEE, ISO, CVE databases | .docx |
 | Research Paper | Skeleton of research paper with summary | .docx |
 | Methodology | Created Methodology explaining the reasoning for the router grid scoring | .md |
