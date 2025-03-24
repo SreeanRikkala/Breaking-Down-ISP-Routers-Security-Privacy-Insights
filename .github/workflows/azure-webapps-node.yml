@@ -30,12 +30,13 @@ env:
 permissions:
   contents: read
 
+defaults:
+  run: 
+    working-directory: "./react-website"
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run: 
-        working-directory: "react-website"
     steps:
     - uses: actions/checkout@v4
 
@@ -61,9 +62,6 @@ jobs:
     permissions:
       contents: none
     runs-on: ubuntu-latest
-    defaults:
-      run: 
-        working-directory: "react-website"
     needs: build
     environment:
       name: 'Development'
