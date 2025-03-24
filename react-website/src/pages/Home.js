@@ -3,7 +3,7 @@ import '../styles/Home.css';
 import OverviewSection from './sections/OverviewSection';
 import VulnerabilitiesSection from './sections/VulnerabilitiesSection';
 import HeroSection from './sections/HeroSection';
-
+import ProductStyleRouterSection from '../components/ProductStyleRouterSection';
 
 const Home = () => {
     return (
@@ -11,11 +11,13 @@ const Home = () => {
             {/* Hero Section */}
             <HeroSection />
 
-            {/* Overview Section */}
             <OverviewSection />
 
             {/* Vulnerabilities Section */}
             <VulnerabilitiesSection />
+
+            {/*<ProductStyleRouterSection />*/}
+            <ProductStyleRouterSection />
 
             {/* Empty Section 3 */}
             <section id="section3" className="empty-section">

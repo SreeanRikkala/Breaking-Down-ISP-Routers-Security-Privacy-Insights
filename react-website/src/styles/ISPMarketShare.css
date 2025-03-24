@@ -1,0 +1,292 @@
+/* ISPMarketShare.css */
+
+/* Base card styling */
+.isp-card {
+    position: relative;
+    background-color: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.isp-card.hidden-when-expanded {
+    visibility: visible;
+    opacity: 1;
+}
+
+.card-inner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Graph preview styling */
+.graph-preview {
+    width: 40%;
+    height: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.graph-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Card content styling */
+.card-content {
+    width: 60%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-header {
+    background-color: #e4edfb;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    color: #555;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+/* Read more button styled to match site aesthetic */
+.read-more-btn {
+    align-self: flex-start;
+    background: none;
+    border: 2px solid #333;
+    border-radius: 2rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: auto;
+}
+
+.read-more-btn:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Full-section overlay styling */
+.full-section-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 2rem); /* Account for padding */
+    height: auto; /* Allow it to grow based on content */
+    min-height: 90%;
+    max-height: 90vh;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    z-index: 100;
+    animation: fadeIn 0.3s ease forwards;
+    margin: 1rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.full-section-content {
+    padding: 2.5rem;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    background: white;
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    z-index: 10;
+}
+
+.close-button:hover {
+    background-color: #f5f5f5;
+    transform: rotate(90deg);
+}
+
+.expanded-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.expanded-header h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.expanded-header h4 {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Side-by-side layout styling */
+.side-by-side-layout {
+    display: flex;
+    gap: 2.5rem;
+    height: calc(80vh - 180px); /* Limit height to avoid scrolling */
+    overflow: hidden; /* Prevent scrolling inside the side-by-side layout */
+}
+
+/* Left side - Graph container */
+.expanded-graph-container {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 0.75rem;
+}
+
+/* Graph image */
+.graph-image {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Right side - Content container */
+.expanded-content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Only allow scrolling on the content side if needed */
+    padding-right: 0.5rem;
+}
+
+.expanded-text {
+    margin-bottom: 2rem;
+}
+
+.expanded-text p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Table styling */
+.isp-data {
+    margin-top: auto; /* Push to bottom of container */
+}
+
+.isp-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.isp-table th,
+.isp-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.isp-table th {
+    background-color: #f8f8f8;
+    font-weight: 600;
+    color: #333;
+}
+
+.isp-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1100px) {
+    .side-by-side-layout {
+        height: auto;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .expanded-graph-container {
+        height: 300px;
+    }
+
+    .expanded-content-container {
+        padding-right: 0;
+    }
+
+    .expanded-text {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-inner {
+        flex-direction: column;
+    }
+
+    .graph-preview,
+    .card-content {
+        width: 100%;
+    }
+
+    .graph-preview {
+        height: 200px;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .read-more-btn {
+        margin-top: 1rem;
+    }
+
+    .full-section-overlay {
+        width: calc(100% - 1rem);
+        margin: 0.5rem;
+    }
+
+    .full-section-content {
+        padding: 1.5rem;
+    }
+
+    .expanded-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .expanded-graph-container {
+        height: 200px;
+    }
+}

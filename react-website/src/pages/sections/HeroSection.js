@@ -11,9 +11,9 @@ const HeroSection = () => {
                         We evaluated top ISP Routers for Security,
                         usability, performance, and price to help you choose
                     </p>
-                    <button className="hero-button">
+                    <a href="#overview" className="hero-button">
                         Learn More <i className="fas fa-arrow-right"></i>
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>

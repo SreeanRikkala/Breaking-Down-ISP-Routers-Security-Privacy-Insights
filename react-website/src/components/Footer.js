@@ -5,22 +5,25 @@ const Footer = () => {
     const year = new Date().getFullYear();
 
     return (
-        <footer className="footer">
-            <div className="footer-container">
-                <div className="footer-content">
+        <footer className="footer-minimal">
+            <div className="footer-container-minimal">
+                <div className="github-link-container">
                     <a
                         href="https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="github-link"
+                        className="github-icon"
                     >
-                        <i className="fab fa-github"></i> View on GitHub
+                        <i className="fab fa-github"></i>
                     </a>
                 </div>
-            </div>
 
-            <div className="footer-bottom">
-                <p>&copy; {year} ISP Router Security Insights</p>
+                <div className="copyright-container">
+                    <p>&copy; {year} ISP Router Security Insights | All Rights Reserved</p>
+                    <p className="footer-disclaimer">
+                        This project is for educational and research purposes only.
+                    </p>
+                </div>
             </div>
         </footer>
     );
