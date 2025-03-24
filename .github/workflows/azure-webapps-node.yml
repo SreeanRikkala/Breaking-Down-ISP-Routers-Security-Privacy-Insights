@@ -1,6 +1,6 @@
 on:
   push:
-    branches: ["main"]
+    branches: [ "main" ]
   workflow_dispatch:
 
 env:
@@ -12,13 +12,12 @@ permissions:
   contents: read
 
 defaults:
-  run:
+  run: 
     working-directory: "./react-website"
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
@@ -63,4 +62,3 @@ jobs:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ISP_ROUTER_SECURITY_WEBAPP }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-          clean: true
