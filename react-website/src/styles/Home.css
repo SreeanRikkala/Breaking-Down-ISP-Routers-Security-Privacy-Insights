@@ -142,15 +142,6 @@
     max-width: 1200px;
 }
 
-/* Hide other overview sections */
-.overview-section,
-.overview-section-redesign,
-.overview-section-integrated,
-.overview-section-final,
-.overview-section-paragraph,
-.overview-section-simple {
-    display: none;
-}
 
 /* Vuln sec*/
 .vulns-section {
