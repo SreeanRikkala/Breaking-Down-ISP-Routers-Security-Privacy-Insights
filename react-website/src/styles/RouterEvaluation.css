@@ -828,6 +828,22 @@
     margin: 1rem 0;
     font-family: monospace;
 }
+.weight-chart-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.weight-chart-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: contain;
+}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
