@@ -38,8 +38,8 @@ Methodological Steps Completed So Far:
 | Task ID | Description | Status |
 | --- | --- | --- |
 | #12, #16 | Literature review of NIST, ISO, CVSS, BSI TR-03148, CL-GL-GDS-BCP-V01-211007, NIST IR 8425A, TR-124, and RFC standards | Completed |
-| #34 | Defined router evaluation categories and sub-metrics | Completed |
-| #14 | Created security scoring model quantifiable grid | Completed |
+| #34 | Defined router evaluation categories and metrics | Completed |
+| #14 | Created scoring model quantifiable grid | Completed |
 | #35 | Collected documentation from major ISPs (router specs) | In Progress |
 | #31 | Setup Codebase | In Progress |
 | #32 | Evaluate Deployment Strategy | In Progress |
@@ -102,21 +102,22 @@ Methodological Steps Completed So Far:
 ## Hinderances
 
 - No Physical Access to Routers
-- Reliance of Public Documentation
+- Need for of Public Documentation Reliance
 - Lack of Performance Testing
-- Subjectivity in Usability Scoring (Without real user testing or interface must rely on online feedback)
+- Opinion in Usability Scoring (Without real user testing or interface must rely on online feedback)
 - Limited Privileges for Security Testing (Can't validate secure boot, firewall behavior, log and alert handling)
 - Dynamic CVE data (data may change day to day)
 - Inconsistent Cost Models Across ISPs (some routers are bundled into plans with no cost breakdown)
 
 ## Ongoing Risks
 
+## Ongoing Risks
 |Risk name (value)  | Impact     | Likelihood | Description |
 |-------------------|------------|------------|-------------|
-|Licensing/paywalls (63) | 5 | 6 | Licensing/paywalls may prohibit us from performing a technical analysis. Cybersecurity tools often require paid licensing. Even if there are free tools to simulate a network topology in the technical analysis, it may not have the features necessary to cover our use cases. We need to simulate a virtual environment to find hardening methods for our networking devices. Without paid tools, research into hardening methods may present researching roadblocks. Licensing could also prohibit our research in other ways, such as the researching the firmware of home network devices. |
-|Network delivery performance issues (20) | 10 | 2 | The finalized PoC (proof of concept) may have performance issues. To preface, the team is still defining the scope of the PoC. At minimum, it will be a simulated network with the configurations of our proposed methodology. As of now, the planned PoC is going to be simulated virtually. The idea is that its hardening topology could be implemented into a home networking device with confidence. The problem is that there is a diverging market in network delivery. Our PoC can be future proof only if it is polymorphic to fiber, 5G, and StarLink compatibility. The extra memory dedicated to security configurations may also come at a sacrifice to packet delivery, causing outages and latency for our PoC. |
-|Missed deadline (18) | 6 | 4 | Deadlines might be missed. A natural consequence of any group project is member avilability. Life circumstances can shift focus away from this class, causing deliverables to miss their deadlines. |
-|Firmware EULAs (16) | 2 | 8 | Legal restrictions may prevent us from researching firmware of existing network devices. It is unclear what questions can be answered through white papers alone. The network topology of marketed home network devices may only be discoverable through the decompiling of their firmware. The team is fully dedicated to upholding the law and honor all EULAs. Because of this, the team may hit legal roadblocks when researching home network firmware. |
-|Low user satisfaction (10) | 2 | 4 | The finalized website may have low user satisfaction. Even with detailed explanations, the hardening methods presented on the website may be too technical for those without IT experience. The risk is that website will require a level of technical knowledge that confuses and frustrates our target audience of everyday home network users. Low satisfaction would be predictable, but not based on any empirical evaluations because the team has no plans for collecting user feedback. |
+|Licensing/paywalls (42) | 7 | 6 | Licensing and paywalls are not as much of an ongoing risk as originally predicted. The original plan of running dynamic analysis on router firmware is now out-of-scope for Milestone 2. Many router configurations are explained vaguely in White Papers. In these cases, physical access to routers would yield better recommendations for scoring routers on the router scoring matrix. That roadblock will become more apparent in Milestone 3. For Milestone 2, we used highly-accessible, no-cost security standard resources, like NIST, with no issue. |
+|Network delivery performance issues (2) | 2 | 1 | Our PoC (proof of concept) has changed scope since Milestone 1. Our team opted for a website over a virtualized network environment. Network delivery and performance issues are still a relevant risk; just applied differently. A website can experience performance problems stemming from remote attacks. If our website has an unmanaged field or form, then a DoS attack could bring down the website. Although the website is public-facing, the chances of an attack within the timeline of this semester is unlikely. Even so, Azure has default configurations to prevent DoS attacks. In the unlikely event that a DoS attack does slow or stop the website, then a simple deployment will fix the issue. |
+|Missed deadline (12) | 6 | 2 | Deadlines might be missed. However, each team member has shown outstanding initiative. Dedication to the project is in no short supply. |
+|Firmware EULAs (0) | 0 | 0 | This risk is deprecated. Firmware decompiling is out-of-scope for the rest of the project. |
+|Low user satisfaction (18) | 3 | 6 | This is the only risk that grew since Milestone 1. Now that the technical deliverable is solely scoped to the website, it carries extra expectations on its user satisfaction. One of the listed hinderances is having no clear target audience for this website. What level of technical experience do we reasonably expect a user to have when they harden their router? This question burns a hole in our literature review. How far we translate technical security compliance standards to user-friendly language on the website is tough measure to unanimously agree on. |
 
 

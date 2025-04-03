@@ -76,12 +76,12 @@ Each router is scored from 0–10 for every subcategory based on objective or do
 ### Wi-Fi Speed
 - 10 = Matches or exceeds ISP plan reliably
 - 5 = 60–80% of plan speeds
-- 0 = Bottlenecks connection
+- 0 = <60% of plan speeds
 
 ### Signal Strength
-- 10 = Strong signal at 30+ ft
-- 5 = Moderate signal at 30+ ft
-- 0 = Poor coverage
+- 10 = <= -30 dbm
+- 5 = > -30 dbm and < -80 dbm
+- 0 = > -80 dbm
 
 ### Latency & Jitter
 - 10 = 10ms 
@@ -89,9 +89,9 @@ Each router is scored from 0–10 for every subcategory based on objective or do
 - 0 = >100ms 
 
 ### Multi-Device Handling
-- 10 = 10+ devices with no slowdown
-- 5 = Moderate slowdown
-- 0 = Chokes with 5+ devices
+- 10 = 10 or more devices with no slowdown
+- 5 = Moderate slowdown with 10 or more devices
+- 0 = Chokes with 5 or more devices
 
 ## Cost Criteria
 
