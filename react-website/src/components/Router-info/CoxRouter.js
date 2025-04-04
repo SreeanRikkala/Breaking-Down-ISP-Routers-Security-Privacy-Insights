@@ -129,7 +129,7 @@ const CoxRouter = () => {
                                         style={{ width: `${routerData.scores.security.value * 10}%` }}
                                     ></div>
                                 </div>
-                                <div className="score-weight">Weight: 40%</div>
+                                <div className="score-weight">Weight: 50%</div>
                             </div>
 
                             <div className="score-card">
@@ -141,7 +141,7 @@ const CoxRouter = () => {
                                         style={{ width: `${routerData.scores.performance.value * 10}%` }}
                                     ></div>
                                 </div>
-                                <div className="score-weight">Weight: 30%</div>
+                                <div className="score-weight">Weight: 25%</div>
                             </div>
 
                             <div className="score-card">
@@ -153,7 +153,7 @@ const CoxRouter = () => {
                                         style={{ width: `${routerData.scores.usability.value * 10}%` }}
                                     ></div>
                                 </div>
-                                <div className="score-weight">Weight: 20%</div>
+                                <div className="score-weight">Weight: 17%</div>
                             </div>
 
                             <div className="score-card">
@@ -165,8 +165,8 @@ const CoxRouter = () => {
                                         style={{ width: `${routerData.scores.cost.value * 10}%` }}
                                     ></div>
                                 </div>
-                                <div className="score-weight">Weight: 10%</div>
-                            </div>
+                                <div className="score-weight">Weight: 08%</div>
+                            </div>S
                         </div>
 
                         <div className="assessment-grid">
@@ -455,41 +455,23 @@ const CoxRouter = () => {
 
                         <div className="methodology-content">
                             <div className="methodology-section">
-                                <h3>Evaluation Criteria</h3>
-                                <p>Our router evaluations follow industry-standard testing procedures and criteria from authoritative sources including:</p>
-                                <ul className="reference-list">
-                                    {routerData.references.map((reference, index) => (
-                                        <li key={index} className="reference-item">
-                                            <strong>{reference.id}:</strong> {reference.description}
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-
-
-
-                            <div className="methodology-section">
-                                <h3>Testing Protocol</h3>
-                                <p>Our evaluation process includes:</p>
-                                <ul className="protocol-list">
-                                    <li>Hands-on testing in controlled environments</li>
-                                    <li>Analysis of technical specifications</li>
-                                    <li>Review of firmware security features</li>
-                                    <li>Real-world performance measurements</li>
-                                    <li>Review of user experiences and reports</li>
-                                    <li>Cost analysis compared to market alternatives</li>
-                                </ul>
-                            </div>
-
-                            <div className="methodology-section">
                                 <h3>Final Score Calculation</h3>
                                 <p>The final router score is calculated using a weighted average of the four category scores:</p>
                                 <div className="calculation-formula">
-                                    <p>Final Score = (Security × 0.4) + (Performance × 0.3) + (Usability × 0.2) + (Cost × 0.1)</p>
+                                    <p>Final Score = (Security × 0.5) + (Performance × 0.25) + (Usability × 0.17) + (Cost × 0.8)</p>
                                 </div>
                                 <p>For the Cox Panoramic Wi-Fi Gateway, this calculation is:</p>
                                 <div className="calculation-example">
-                                    <p>({routerData.scores.security.value} × 0.4) + ({routerData.scores.performance.value} × 0.3) + ({routerData.scores.usability.value} × 0.2) + ({routerData.scores.cost.value} × 0.1) = {routerData.finalScore}</p>
+                                    <p>({routerData.scores.security.value} × 0.5) + ({routerData.scores.performance.value} × 0.25) + ({routerData.scores.usability.value} × 0.17) + ({routerData.scores.cost.value} × 0.8) = {routerData.finalScore}</p>
+                                </div>
+                            </div>
+                            <div className="pie-chart-container">
+                                <div className="weight-chart-image">
+                                    <img
+                                        src={require('../../assets/images/router-weights/cox-w.png')}
+                                        alt="Weight distribution chart: Security 50%, Performance 25%, Usability 17%, Cost 8%"
+                                        className="weight-chart-img"
+                                    />
                                 </div>
                             </div>
                         </div>

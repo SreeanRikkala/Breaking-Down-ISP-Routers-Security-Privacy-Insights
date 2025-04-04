@@ -1,9 +1,9 @@
 {
-  "date": "3/18/2025",
+  "date": "4/3/2025",
   "specs": {
     "isp": "Cox",
     "deviceName": "Panoramic Wi-Fi Gateway / Technicolor CGM4981",
-    "docsisVersion": "DOCSIS 3.1 Tri-Band Wi-Fi 6 (802.11ax) Panoramic Wifi Gateway",
+    "docsisVersion": "DOCSIS 3.1 Tri-Band Wi-Fi 6 (802.11ax) Panoramic WiFi Gateway",
     "firmwareVersion": "Not Publicly Released",
     "knownCVEs": "None found",
     "price": "$13/month",
@@ -11,7 +11,7 @@
   },
   "scores": {
     "security": {
-      "value": 7.2,
+      "value": 8.9,
       "details": [
         {
           "id": "CL.OOB-006",
@@ -31,11 +31,11 @@
         },
         {
           "id": "NVD.NIST.GOV",
-          "criteria": "Known Vulnerabilities (CVE Count)",
+          "criteria": "Known Vulnerabilities (CVE)",
           "description": "Publicly disclosed vulnerabilities in past 2 years",
           "scale": "(0 = 10, 1-2 = 7, 3-5 = 5, >5 = 0)",
           "result": 10,
-          "notes": "No publicly disclosed CVEs"
+          "notes": "No known CVEs in NVD or Cox documentation"
         },
         {
           "id": "CL.NETA-002",
@@ -43,15 +43,15 @@
           "description": "WPA3 Support",
           "scale": "(WPA3 = 10, WPA2 = 5, No WPA3 = 0)",
           "result": 10,
-          "notes": "WPA3 support confirmed"
+          "notes": "WPA3 with WPA2 backward compatibility"
         },
         {
           "id": "CL.OOB-008",
           "criteria": "Remote Access",
-          "description": "Are the following remote features disabled by default (Telnet, SSH, UPnP, FTP)?",
+          "description": "Are Telnet, SSH, UPnP, FTP disabled by default?",
           "scale": "(Yes = 10, No = 0)",
-          "result": 5,
-          "notes": "UPnP enabled by default"
+          "result": 10,
+          "notes": "All remote access protocols disabled by default"
         },
         {
           "id": "CL.NETS-001",
@@ -67,7 +67,7 @@
           "description": "Is the firewall enabled by default?",
           "scale": "(Yes = 10, No = 0)",
           "result": 10,
-          "notes": "Firewall is enabled by default"
+          "notes": "Firewall enabled by default with SPI and DoS protection"
         },
         {
           "id": "ISOLATION",
@@ -82,8 +82,8 @@
           "criteria": "Automatic Security Updates",
           "description": "Does the router support automatic security updates?",
           "scale": "(Yes = 10, No = 0)",
-          "result": 0,
-          "notes": "No automatic security updates available"
+          "result": 5,
+          "notes": "Semi-automatic updates available through Cox cloud management"
         }
       ]
     },
@@ -93,7 +93,7 @@
         {
           "id": "IMDA.GEN.OPS.10",
           "criteria": "Setup Time",
-          "description": "Is the device self-installable by an end user in under 20 minutes assuming the default configuration and mode of operation?",
+          "description": "Is the device self-installable by an end user in under 20 minutes?",
           "scale": "(≤20 min = 10, >20 min = 0)",
           "result": 10,
           "notes": "Average setup time: 15 minutes"
@@ -109,7 +109,7 @@
         {
           "id": "IMDA.GEN.OPS.11",
           "criteria": "Drivers",
-          "description": "Are additional drivers other than networking drivers required for full and proper use of the device?",
+          "description": "Are additional drivers other than networking drivers required?",
           "scale": "(Yes = 0, No = 10)",
           "result": 10,
           "notes": "No additional drivers required"
@@ -125,7 +125,7 @@
       ]
     },
     "performance": {
-      "value": 7.0,
+      "value": 5.3,
       "details": [
         {
           "id": "PERF.1",
@@ -133,7 +133,7 @@
           "description": "Maximum download & upload speeds",
           "scale": "Mbps (≥80% of ISP speed = 10, ≤40% = 0)",
           "result": 7,
-          "notes": "ISP claims 1 Gbps speed, but reviews show 700 Mbps actual"
+          "notes": "Achieves approximately 700 Mbps of advertised 1 Gbps speed"
         },
         {
           "id": "PERF.2",
@@ -141,15 +141,15 @@
           "description": "Check user-reported Wi-Fi range & RSSI at distances",
           "scale": "dBm (-30 = 10, -80 = 0)",
           "result": 5,
-          "notes": "Forum users report weak Wi-Fi beyond 20ft"
+          "notes": "Weak Wi-Fi signals beyond 20ft despite 3,000 sq. ft. rating"
         },
         {
           "id": "PERF.3",
           "criteria": "Latency & Jitter",
           "description": "What are the ping times in ms?",
           "scale": "ms (≤10ms = 10, ≥100ms = 0)",
-          "result": 7,
-          "notes": "Average ping: 25-30ms"
+          "result": 0,
+          "notes": "Data unavailable in current assessment"
         },
         {
           "id": "PERF.4",
@@ -157,19 +157,19 @@
           "description": "Can it handle multiple devices without slowdown?",
           "scale": "(Smooth = 10, Lag= 0)",
           "result": 9,
-          "notes": "Tech reviews show low latency & strong multi-device performance"
+          "notes": "Strong multi-device performance with 4×4 MU-MIMO per band"
         }
       ]
     },
     "cost": {
-      "value": 3.3,
+      "value": 6.7,
       "details": [
         {
           "id": "COST.1",
           "criteria": "Router Rental Fee",
           "description": "What is the monthly cost vs. purchase option?",
           "scale": "(Free = 10, $15+/mo = 0)",
-          "result": 3,
+          "result": 5,
           "notes": "$13/month rental fee"
         },
         {
@@ -185,31 +185,39 @@
           "criteria": "Hidden Fees",
           "description": "Are there additional costs? (e.g. services fees)",
           "scale": "(No = 10, Yes = 0)",
-          "result": 7,
-          "notes": "One-time $20 activation fee"
+          "result": 10,
+          "notes": "No hidden fees identified"
         }
       ]
     }
   },
-  "finalScore": 6.7,
+  "finalScore": 7.6,
+  "weightDistribution": {
+    "security": 50,
+    "usability": 17,
+    "performance": 25,
+    "cost": 8
+  },
+  "calculationFormula": "Final Score = (Security × 0.5) + (Usability × 0.17) + (Performance × 0.25) + (Cost × 0.08)",
+  "calculation": "(8.9 × 0.5) + (7.5 × 0.17) + (5.3 × 0.25) + (6.7 × 0.08) = 7.6",
   "strengths": [
-    "WPA3 security support",
-    "Decent Wi-Fi 6 performance",
-    "Strong multi-device handling",
-    "Simple self-installation process",
-    "Comprehensive network management app"
+    "WPA3 security support with backward compatibility",
+    "Strong security features with no known CVEs",
+    "Excellent multi-device handling with MU-MIMO",
+    "Simple self-installation process (15 min average)",
+    "Tri-band Wi-Fi 6 (802.11ax) technology"
   ],
   "weaknesses": [
-    "No automatic security updates",
-    "Cannot be purchased outright",
-    "Signal strength drops at longer distances",
-    "Limited advanced configuration options",
-    "Relatively high monthly rental fee"
+    "Cannot be purchased outright (lease only)",
+    "Signal strength drops significantly at longer distances",
+    "Estimated lifespan of only 5-6 years",
+    "Some performance metrics unavailable for evaluation",
+    "Monthly rental fee of $13 adds up over time"
   ],
   "references": [
     { "id": "CL", "description": "CableLabs Gateway Device Security Best Common Practices" },
     { "id": "IMDA", "description": "IMDA Security Requirements for Residential Gateways" },
-    { "id": "NVD.NIST.GOV", "description": "Nvd.nist.gov – CVE database" },
-    { "id": "SMALLNETBUILDER", "description": "https://www.smallnetbuilder.com/" }
+    { "id": "NVD.NIST.GOV", "description": "National Vulnerability Database" },
+    { "id": "FCC", "description": "FCC Equipment Authorization Database" }
   ]
 }
