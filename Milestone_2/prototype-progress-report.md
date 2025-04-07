@@ -114,3 +114,10 @@ We've followed a research methodology aligned with best practices from:
 | Missed deadline (12) | 6 | 2 | Deadlines might be missed. However, each team member has shown outstanding initiative. Dedication to the project is in no short supply. | We had a good backup when teammates aren't available and we plan to have schedules mentioned in the group at least 3 days in advance.                                         |
 | Firmware EULAs (0) | 0 | 0 | This risk is deprecated. Firmware decompiling is out-of-scope for the rest of the project. | N/A |                                                                                                                                                                          |
 | Low user satisfaction (18) | 3 | 6 | This is the only risk that grew in liklihood since Milestone 1. Now that the technical deliverable is solely scoped to the website, it carries extra expectations on its user satisfaction. One of the listed hinderances is having no clear target audience for this website. What level of technical experience do we reasonably expect a user to have when they harden their router? This question burns a hole in our literature review. | We intend to make a feedback mechanism not too much dynamic but a basic email version that sends a notification when received a comment.                                      |
+
+## Diagrams
+### Website Deployment and Access
+![Website Deployment and Access](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_2/Diagrams/webapp-deployment-architecture.png?raw=true)
+
+### Router Hardening Example
+![Router Hardening Example](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_2/Diagrams/RouterHardening.png?raw=true)
