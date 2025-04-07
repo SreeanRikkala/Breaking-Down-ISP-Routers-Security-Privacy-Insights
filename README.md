@@ -101,7 +101,7 @@ this end, our criteria and determinations must be continually re-evaluated when 
 
 ### <a href="https://router-security.mek-tech.net">WEBSITE LINK HERE</a>
 
-## Installation Instructions
+## Environment Setup Instructions
 
 ### Prerequisites
 Before setting up the project, ensure you have the following installed:
