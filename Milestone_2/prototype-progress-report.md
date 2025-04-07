@@ -13,14 +13,16 @@ We've followed a research methodology aligned with best practices from:
 - [TR-124](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Research_Materials/Standards/TR-124%20Functional%20Requirements%20for%20Broadband%20Residential%20Gateway%20Devices.pdf) - Functional Requirements for Broadband Residential Gateway Devices
 - [System Usability Scale (SUS)](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Research_Materials/Standards/systemusabilityscale_SUS.pdf)
 
-### Methodological Steps Completed So Far:
+### Methodological Steps Completed:
 
 - Defined quantifiable security metrics based on research-backed standards.
 - Created a weighted scoring system for router evaluation.
 - Established a research-informed performance evaluation method (via extracting data from documents & third-party benchmarks).
 - Created base website
-- Started research paper
+- Deployed website on Azure
+- Outlined research paper
 - Structured router reviews into four main categories: Security, Usability, Performance, Cost.
+- Drew diagrams for website deployment and for router security controls
 
 ## Outcomes - Tasks Achieved from the Backlog
 
@@ -29,21 +31,21 @@ We've followed a research methodology aligned with best practices from:
 | #12, #16 | Literature review of NIST, ISO, CVSS, BSI TR-03148, CL-GL-GDS-BCP-V01-211007, NIST IR 8425A, TR-124, and RFC standards | Completed |
 | #34 | Defined router evaluation categories and metrics | Completed |
 | #14 | Created scoring model quantifiable grid | Completed |
-| #35 | Collected documentation from major ISPs (router specs) | In Progress |
-| #31 | Setup Codebase | In Progress |
-| #32 | Evaluate Deployment Strategy | In Progress |
-| #37 | Create Skeleton Website | In Progress |
+| #35 | Collected documentation from major ISPs (router specs) | Completed |
+| #31 | Setup Codebase | Completed |
+| #32 | Evaluate Deployment Strategy | Completed |
+| #37 | Create Skeleton Website | Completed |
 | #36 | Created comparison matrix template | Completed |
-| #23 | Create Research Paper | In Progress |
+| #23 | Create Research Paper | Completed |
 | #38 | Create Literature Review Summary | Completed |
 | #39 | Create Project Realization Documents for Milestone 2 Submission | Completed |
 | #40 | Created Methodology explaining the reasoning for the router grid scoring | Completed |
 | #41 | Create Scoring Criteria explaining scoring of each item | Completed |
-| #46 | Create Visual Diagrams Document diagrams in main README.md file for conveying project details | In Progress |
-| #36 | Ensure Issues and Projects are updated and reflected in Github Kaban | In Progress |
-| #37 | Create PowerPoint of Project for Milestone 2 | In Progress |
-| #38 | Environment Setup - Update README.md file with setup instructions in main repository | In Progress |
-| #47 | Create Video for M2 Submission | In Progress |
+| #46 | Create Visual Diagrams Document diagrams in main README.md file for conveying project details | Completed |
+| #36 | Ensure Issues and Projects are updated and reflected in Github Kaban | Completed |
+| #37 | Create PowerPoint of Project for Milestone 2 | Completed |
+| #38 | Environment Setup - Update README.md file with setup instructions in main repository | Completed |
+| #47 | Create Video for M2 Submission | Completed |
 
 
 ## Product Increments (Deliverables in This Milestone)
@@ -99,6 +101,7 @@ We've followed a research methodology aligned with best practices from:
 - Limited Privileges for Security Testing (Can't validate secure boot, firewall behavior, log and alert handling)
 - Dynamic CVE data (data may change day to day)
 - Inconsistent Cost Models Across ISPs (some routers are bundled into plans with no cost breakdown)
+- No agreement on the technical knowledge that we expect from our target audience
 
 ---
 
@@ -106,8 +109,8 @@ We've followed a research methodology aligned with best practices from:
 
 | Risk name (value) | Impact | Likelihood | Description | Mitigation Strategies                                                                                                                                                         |
 | --- | --- | --- | --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Licensing/paywalls (42) | 7 | 6 | Licensing and paywalls are not as much of an ongoing risk as originally predicted. The original plan of running dynamic analysis on router firmware is now out-of-scope for Milestone 2. Many router configurations are explained vaguely in White Papers. In these cases, physical access to routers would yield better recommendations for scoring routers on the router scoring matrix. That roadblock will become more apparent in Milestone 3. | We for now want to focus on the free resources we have NIST and cablelbsa public documentatation.                                                                             |
+| Licensing/paywalls (42) | 7 | 6 | Licensing and paywalls are not as much of an ongoing risk as originally predicted. The original plan of running dynamic analysis on router firmware is now out-of-scope for Milestone 2. Many router configurations are explained vaguely in White Papers. Physical access to routers would yield comprehensive deliverables for evaluating routers. Milestone 3 will elaborate how the lack of physical access to the evaluated routers will result in guesswork. | We for now want to focus on the free resources we have NIST and cablelbsa public documentatation.                                                                             |
 | Network delivery performance issues (2) | 2 | 1 | Our PoC (proof of concept) has changed scope since Milestone 1. Our team opted for a website over a virtualized network environment. Network delivery and performance issues are still a relevant risk; just applied differently. A website can experience performance problems stemming from remote attacks. If our website has an unmanaged field or form, then a DoS attack could bring down the website. Although the website is public-facing, the chances of an attack within the timeline of this semester is unlikely. | We have a lightweight version of the backup if the performance makes an issue. Azure provides an extra layer of security and options we are yet to discover and work further. |
 | Missed deadline (12) | 6 | 2 | Deadlines might be missed. However, each team member has shown outstanding initiative. Dedication to the project is in no short supply. | We had a good backup when teammates aren't available and we plan to have schedules mentioned in the group at least 3 days in advance.                                         |
 | Firmware EULAs (0) | 0 | 0 | This risk is deprecated. Firmware decompiling is out-of-scope for the rest of the project. | N/A |                                                                                                                                                                          |
-| Low user satisfaction (18) | 3 | 6 | This is the only risk that grew since Milestone 1. Now that the technical deliverable is solely scoped to the website, it carries extra expectations on its user satisfaction. One of the listed hinderances is having no clear target audience for this website. What level of technical experience do we reasonably expect a user to have when they harden their router? This question burns a hole in our literature review. | We intend to make a feedback mechanism not too much dynamic but a basic email version that sends a notification when received a comment.                                      |
+| Low user satisfaction (18) | 3 | 6 | This is the only risk that grew in liklihood since Milestone 1. Now that the technical deliverable is solely scoped to the website, it carries extra expectations on its user satisfaction. One of the listed hinderances is having no clear target audience for this website. What level of technical experience do we reasonably expect a user to have when they harden their router? This question burns a hole in our literature review. | We intend to make a feedback mechanism not too much dynamic but a basic email version that sends a notification when received a comment.                                      |
