@@ -97,6 +97,13 @@ this end, our criteria and determinations must be continually re-evaluated when 
 |Physical or Emulated Consumer Router| No | Corey | A consumer router with GUI for configuration examination and testing|
 |Azure Web Server| No | Corey | Web server for hosting site contents|
 
+## Diagrams
+### Website Deployment and Access
+![Website Deployment and Access](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_2/Diagrams/webapp-deployment-architecture.png?raw=true)
+
+### Router Hardening Example
+![Router Hardening Example](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_2/Diagrams/RouterHardening.png?raw=true)
+
 # React Website
 
 ### <a href="https://router-security.mek-tech.net">WEBSITE LINK HERE</a>
