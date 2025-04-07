@@ -63,8 +63,7 @@ We've followed a research methodology aligned with best practices from:
 | Visual Diagrams | Document diagrams in main README.md file for conveying project details | .md | [View Document](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/README.md) |
 | Issue Tracking | Ensure Issues and Projects are updated and reflected in Github Kaban | Github | [View Issues](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/issues) |
 | Presentation M2 | Create powerpoint of project including 1) conveying a sense of interest and excitement about your project 2) cool product demos, and 3) interesting intermediate findings of conducting your projects. | .pptx | [View Presentation](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Presentations/M1_Presentation.pptx) |
-| Environment Setup | Update README.md file with setup instructions in main repository | .md | [View Document](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/README.md)
-/README.md) |
+| Environment Setup | Update README.md file with setup instructions in main repository | .md | [View Document](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/README.md) |
 | Video Presentation | Video Reviewing PowerPoint | .mp4 | [View Video](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Presentations/M2_Video.mp4) |
 
 ## Binding Tasks, Code, and Documentation Together
