@@ -29,10 +29,10 @@ The technical deliverable for this project will be a website containing the resu
 
 ### Evaluation Framework
 ### System Architecture
-### Website Deployment and Access
+#### Website Deployment and Access
 ![Website Deployment and Access](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_2/Diagrams/webapp-deployment-architecture.png?raw=true)
 
-### Router Hardening Example
+#### Router Hardening Example
 ![Router Hardening Example](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_2/Diagrams/RouterHardening.png?raw=true)
 
 ## Results / Findings
