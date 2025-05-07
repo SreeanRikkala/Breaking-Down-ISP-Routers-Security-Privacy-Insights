@@ -200,10 +200,9 @@ Breaking-Down-ISP-Routers-Security-Privacy-Insights/
 ├── Administration/
 ├── Drafts_and_Analysis/
 ├── Drafts_and_Writing/
-│   ├── Milestone_1/
-│   └── Milestone_2/
 ├── Ideas/
 │   └── Brainstorming/
+├── Milestone_1/
 ├── Milestone_2/
 │   ├── Diagrams/
 │   └── paper-outline/
@@ -216,13 +215,13 @@ Breaking-Down-ISP-Routers-Security-Privacy-Insights/
 ├── References_Citations/
 ├── Research_Materials/
 │   ├── Reviews/
-│   ├── Router_Review_Documents/
 │   └── Standards/
-└── react-website/
-    ├── package-lock.json
-    ├── package.json
-    ├── public/
-    └── src/
+├── react-website/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── package-lock.json
+└── README.md
 
 ## References
 
