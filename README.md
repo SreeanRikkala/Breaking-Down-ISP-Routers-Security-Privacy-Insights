@@ -137,28 +137,6 @@ For those wishing to deploy their own instance, we recommend:
 - GitHub repository connection for automated deployment
 
 
-### Troubleshooting Common Issues
-
-* **Port Already in Use**
-    * If port 3000 is busy, run:
-  ```sh
-  npx kill-port 3000
-  ```
-
-* **Dependency Issues**
-    * Delete `node_modules/` and reinstall:
-  ```sh
-  rm -rf node_modules package-lock.json
-  npm install
-  ```
-
-* **Command Not Found Errors**
-    * Ensure Node.js and npm are correctly installed:
-  ```sh
-  node -v
-  npm -v
-  ```
-
 ## Troubleshooting
 
 ### Common Installation Issues
