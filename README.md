@@ -96,7 +96,7 @@ cd Breaking-Down-ISP-Routers-Security-Privacy-Insights/react-website
 #### Installing Dependencies
 Once inside the `react-website` directory, install all required dependencies:
 
-**Using npm (mostly recommended)**
+**Using npm - most recomended**
 ```sh
 npm install
 ```
