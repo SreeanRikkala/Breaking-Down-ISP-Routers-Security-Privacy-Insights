@@ -202,7 +202,8 @@ Breaking-Down-ISP-Routers-Security-Privacy-Insights/
 └── README.md
 
 ```
+---
 
-## References
+© 2025 {Team Name coming soon/too late}. All rights reserved.
 
-## Appendices
+This project was completed as part of CYBR 4580/8950 Capstone Project at University of Nebraska Omaha.
