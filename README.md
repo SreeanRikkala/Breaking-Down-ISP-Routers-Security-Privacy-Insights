@@ -4,6 +4,23 @@
 There is an expectation of privacy and security for marketed residential network devices. Consumers expect routers, modems, switches, IoT devices, and other smart home devices to be secure out of the box. Although there are industry standards for information security, such as NIST and SOC2, home routers often rely on the consumer's knowledge to apply proper security controls, such as performing updates and setting up secure wireless networks. With a wide range of technical proficiency, relying on consumers’ can lead to poor data governance, privacy concerns, vulnerabilities, and insecure networks. It is imperative that the best practices for data governance are in place by default to protect users’ data and keep their networks private.
 
 ## Project Goals
+Our project research focuses on analyzing common security vulnerabilities and relevant controls in ISP routers and comparing them through a grid that offers an easy to understand overview of each router's strength and weaknesses. The results of our research will be displayed on a website which provides insights into consumer router security. The objectives are as follows:
+- **Develop a Grid for Comparison**
+    - Create a methodology to rate the routers using key evaluation crieria, helping consumers easily compare router options.
+- **Assess and Identify Security Risks**
+    - Research security flaws for the routers that could expose users data and privacy such as default passwords or outdated firmware.
+- **Research Router Usability**
+    - Analyze how consumer friendly the ISP routers are with their interface, setup, and configuration.
+- **Test Performance Capabilities**
+  - Measure useful factors such as Wi-Fi speed and coverage
+- **Evaluate Cost**
+  - Review rental cost versus purchase cost and hidden fees
+- **Give Actionable Recommendations**
+  - Provide steps the user can follow to update their firmware if it's out of date or change default password based on the metrics from the router that was analyzed.
+- **Post Findings on a Website**
+    - Compile all the research and findings in a user friendly way on a webpage that includes detailed analysis and security tips.
+
+The proposed approach would require reviewing a router device and researching a way to make it more secure such as allowing automatic firmware updates, setting configuration of the router to be the most secure settings, requiring default credentials to be changed, and strong password enforcement, more user friendly interface.
 
 ## Project Methodology
 ### Literature Review
