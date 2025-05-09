@@ -5,14 +5,16 @@ There is an expectation of privacy and security for marketed residential network
 
 ## Project Goals
 Our project research focuses on analyzing common security vulnerabilities and relevant controls in ISP routers and comparing them through a grid that offers an easy to understand overview of each router's strength and weaknesses. The results of our research will be displayed on a website which provides insights into consumer router security. The objectives are as follows:
-- **Develop a Grid for Comparison**
-    - Create a methodology to rate the routers using key evaluation crieria, helping consumers easily compare router options.
 - **Assess and Identify Security Risks**
     - Research security flaws for the routers that could expose users data and privacy such as default passwords or outdated firmware.
+- **Develop a Grid for Comparison**
+    - Create a methodology to rate the routers using key evaluation criteria sorted into categories, helping consumers easily compare router options.
+- **Test Grid and Examine Results**
+    - Perform mutliple rating tests using the grid against different routers to test its reliability as a security evaluation metric.
 - **Research Router Usability**
     - Analyze how consumer friendly the ISP routers are with their interface, setup, and configuration.
-- **Test Performance Capabilities**
-  - Measure useful factors such as Wi-Fi speed and coverage
+- **Examine Performance Capabilities**
+  - Research useful performance factors that users may be interested in such as Wi-Fi speed and coverage.
 - **Evaluate Cost**
   - Review rental cost versus purchase cost and hidden fees
 - **Give Actionable Recommendations**
@@ -39,15 +41,19 @@ We used PRISMA technique for screening the research papers and to achieve clear 
 
 **[View Literature Review](Research_Materials)**
 
+#### Evaluation Grid
+Evaluation criteria and categories were formed from the literature review, standards, and documentation. The criteria were placed in a grid and weighted with a scoring system for various levels of control implementation. The resulting security section of the grid was used in the research paper for an inter-rater reliability assessment. The usability, performance, and cost sections were utilized in the website for additional information on the project website. 
+
+#### Inter-Rater Reliability Assessment
+
 ### Technical Approach
-### Summary
-The technical deliverable for this project will be a website containing the results of our research and analysis of common consumer routers. This website will contain easily readable information regarding our research with the intent of informing consumers of potential security flaws that may exist in their network. Additionally, this website will contain the results of our analysis on a sample of common consumer routers which are supported by major Internet Service Providers (ISPs) in the United States. The details of our analysis will be readily available, and it will involve a developed list of criteria sourced from our research. The purpose of this deliverable is to provide an objective, informative, and useful website to bolster security literacy amongst consmers.
+#### Summary
+The technical deliverable for this project is a website containing the results of our research and analysis of common consumer routers. This website contains easily readable information regarding our research with the intent of informing consumers of potential security flaws that may exist in their network. Additionally, this website has the results of our analysis on a sample of common consumer routers which are supported by major Internet Service Providers (ISPs) in the United States. The details of our analysis is readily available, and it involves a developed list of criteria sourced from our research. The purpose of this deliverable is to provide an objective, informative, and useful website to bolster security literacy amongst consmers.
 
-
-### Evaluation Framework
-### System Architecture
 #### Website Deployment and Access
 ![Website Deployment and Access](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_2/Diagrams/webapp-deployment-architecture.png?raw=true)
+
+#### System Architecture
 
 #### Router Hardening Example
 ![Router Hardening Example](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_2/Diagrams/RouterHardening.png?raw=true)
@@ -94,13 +100,12 @@ This refinement comes from our research ehich revealed that performance and usab
 ## Conclusion
 
 ## Install Instructions
-
 ### Prerequisites
 Before setting up the project, ensure you have the following installed:
 - Node.js (LTS version)
 - npm or Yarn
 
-### Installation Guide
+### Installation Instructions
 
 #### Cloning the Repository
 To download the project, run:
