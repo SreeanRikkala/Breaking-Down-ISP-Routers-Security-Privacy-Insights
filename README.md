@@ -1,7 +1,7 @@
 # Breaking Down ISP Routers: Security & Privacy Insights
 
 ## Executive Summary
-There is an expectation of privacy and security for marketed network devices. Routers, modems, switches, IoT devices, and other smart home devices are expected to keep PII (Personal Identifiable Information) secure. Although there are industry standards for information security, such as NIST and SOC2, routers often rely on consumers’ knowledge to apply the proper security configuration. Relying on consumers’ knowledge can lead to poor data governance, privacy concerns, vulnerabilities, and insecure networks. It is imperative that the best practices for data governance are in place to protect users’ data and keep their networks private.
+There is an expectation of privacy and security for marketed residential network devices. Consumers expect routers, modems, switches, IoT devices, and other smart home devices to be secure out of the box. Although there are industry standards for information security, such as NIST and SOC2, home routers often rely on the consumer's knowledge to apply proper security controls, such as performing updates and setting up secure wireless networks. With a wide range of technical proficiency, relying on consumers’ can lead to poor data governance, privacy concerns, vulnerabilities, and insecure networks. It is imperative that the best practices for data governance are in place by default to protect users’ data and keep their networks private.
 
 ## Project Goals
 
