@@ -14,7 +14,7 @@ This project evaluates ISP provided and compatible third party consumer routers 
 - Wrote the background, methodology, and results in a concise research paper with a target audience of security and data analysts.
 
 ### Details
-| ID   | Title                                                                                                                                          | Status |       |Documentation|
+| ID   | Title                                                                                                                                          | Status |       Documentation|
 |------|------------------------------------------------------------------------------------------------------------------------------------------------|--------|----------------------|
 | #65  | [Add final scorings and cards to website](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/issues/65)    | Done   | [Website](https://router-security.mek-tech.net/) |
 | #75  | [Calculate Krippendorff Alpha](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/issues/75)               | Done   | [K-Alpha Results] |(https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_3/K-Alpha/K-Alpha-Results.xlsx)
