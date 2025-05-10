@@ -192,7 +192,7 @@ n stable
 yarn install
 ```
 
-### Getting Started
+## Getting Started
 
 #### Running the Development Server
 Start the application in development mode:
