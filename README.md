@@ -73,27 +73,27 @@ considerations that impact consumer router choices.
 - Applied evaluation criteria with weighted scoring: Security (50%), Performance (25%), Usability (17%), and Cost (8%)
 - Used K-Alpha methodology to ensure consistency and minimize bias between reviewers
 - Evaluated the following ISP routers:
- - TP-Link Archer AXE300
- - Asus CMAX6000
- - Motorola MT8733
- - Arris G54 (Comcast version)
- - Arris G54 (Charter version)
- - NETGEAR CBR750
- - CAX30/MG8702
+  - TP-Link Archer AXE300
+  - Asus CMAX6000
+  - Motorola MT8733
+  - Arris G54 (Comcast version)
+  - Arris G54 (Charter version)
+  - NETGEAR CBR750
+  - CAX30/MG8702
 - Identified critical security findings:
- - Inconsistent WPA security implementation across router models
- - Many admin interfaces lacking HTTPS encryption
- - Poor documentation of firmware update frequency and practices
- - No documentation on encryption at rest for stored configurations
+  - Inconsistent WPA security implementation across router models
+  - Many admin interfaces lacking HTTPS encryption
+  - Poor documentation of firmware update frequency and practices
+  - No documentation on encryption at rest for stored configurations
 - Documented performance characteristics:
- - Premium routers delivered 90-100% of advertised speeds
- - Budget models only achieved 60-80% of promised performance
- - Higher-end models maintained sub-10ms latency
- - Budget models showed 10-100ms latency fluctuations
+  - Premium routers delivered 90-100% of advertised speeds
+  - Budget models only achieved 60-80% of promised performance
+  - Higher-end models maintained sub-10ms latency
+  - Budget models showed 10-100ms latency fluctuations
 - Analyzed ISP business practices:
- - Monthly rental fees ranging from under $5 to over $10
- - Router restrictions limiting consumer choice
- - Hidden fees impacting total cost of ownership
+  - Monthly rental fees ranging from under $5 to over $10
+  - Router restrictions limiting consumer choice
+  - Hidden fees impacting total cost of ownership
 - Created a public-facing website to share our router evaluation findings
 - Compiled a comprehensive repository of router evaluations with transparent scoring metrics
 
