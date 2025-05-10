@@ -158,7 +158,10 @@ As this project concludes our academic capstone requirements, we've identified s
 - **Security Standards Development**: Our evaluation criteria could inform the development of simplified security standards for consumer networking equipment.
 
 ## Conclusion
-
+Our project was able to demonstrate that a standards backed, quantifiable security rating system can be
+achieved. Our findings from this project show that their is a greater need for regulatory guidance, pressure, and consumer advocacy to
+require manufacturers to be more transparent and disclose important security features. The data shows both what could be measured from
+publicly available data and what was lacking, showing the areas where more transparency and attention from the industry is needed.
 ## Install Instructions
 ### Prerequisites
 Before setting up the project, ensure you have the following installed:
