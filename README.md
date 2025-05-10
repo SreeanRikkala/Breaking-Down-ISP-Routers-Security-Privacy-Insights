@@ -163,7 +163,7 @@ achieved. Our findings from this project show that their is a greater need for r
 require manufacturers to be more transparent and disclose important security features. The data shows both what could be measured from
 publicly available data and what was lacking, showing the areas where more transparency and attention from the industry is needed.
 ## Install Instructions
-### Prerequisites
+### Requirements
 Before setting up the project, ensure you have the following installed:
 - Node.js (LTS version)
 - npm or Yarn
