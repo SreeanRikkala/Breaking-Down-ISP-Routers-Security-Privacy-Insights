@@ -70,16 +70,19 @@ considerations that impact consumer router choices.
 
 ### Detailed Outcomes
 
-- Applied evaluation criteria with weighted scoring: Security (50%), Performance (25%), Usability (17%), and Cost (8%)
-- Used K-Alpha methodology to ensure consistency and minimize bias between reviewers
+- Applied evaluation criteria with weighted scoring: Security (40%), Performance (30%), Usability (20%), and Cost (10%)
+- Used Krippendorff's Alpha methodology to test consistency and minimize bias between reviewers
+  - Suggested potential improvements to evaluation grid and gaps which may contribute to lower Krippendorff Alpha results
 - Evaluated the following ISP routers:
-  - TP-Link Archer AXE300
-  - Asus CMAX6000
-  - Motorola MT8733
+  - Arris G34
   - Arris G54 (Comcast version)
   - Arris G54 (Charter version)
+  - Asus CMAX6000
+  - Motorola MG8702
+  - Motorola MT8733
+  - NETGEAR CAX30
   - NETGEAR CBR750
-  - CAX30/MG8702
+  - TP-Link Archer AXE300
 - Identified critical security findings:
   - Inconsistent WPA security implementation across router models
   - Many admin interfaces lacking HTTPS encryption
