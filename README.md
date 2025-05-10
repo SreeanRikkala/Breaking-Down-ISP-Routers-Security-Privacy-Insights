@@ -42,13 +42,13 @@ We used PRISMA technique for screening the research papers and to achieve clear 
 **[View Literature Review](Research_Materials)**
 
 #### Evaluation Grid
-Evaluation criteria and categories were formed from the literature review, standards, and documentation. The criteria were placed in a grid and weighted with a scoring system for various levels of control implementation. The resulting security section of the grid was used in the research paper for an inter-rater reliability assessment. The usability, performance, and cost sections were utilized in the website for additional information on the project website. 
+Evaluation criteria and categories were formed from the literature review, standards, and documentation. The criteria were placed in a grid and weighed with a scoring system for various levels of control implementation. The resulting security section of the grid was used in the research paper for an inter-rater reliability assessment. The usability, performance, and cost sections were utilized in the website for additional information on the project website. 
 
 #### Inter-Rater Reliability Assessment
 
 ### Technical Approach
 #### Summary
-The technical deliverable for this project is a website containing the results of our research and analysis of common consumer routers. This website contains easily readable information regarding our research with the intent of informing consumers of potential security flaws that may exist in their network. Additionally, this website has the results of our analysis on a sample of common consumer routers which are supported by major Internet Service Providers (ISPs) in the United States. The details of our analysis is readily available, and it involves a developed list of criteria sourced from our research. The purpose of this deliverable is to provide an objective, informative, and useful website to bolster security literacy amongst consmers.
+The technical deliverable for this project is a website containing the results of our research and analysis of common consumer routers. This website contains easily readable information regarding our research with the intent of informing consumers of potential security flaws that may exist in their network. Additionally, this website has the results of our analysis on a sample of common consumer routers which are supported by major Internet Service Providers (ISPs) in the United States. The details of our analysis is readily available, and it involves a developed list of criteria sourced from our research. The purpose of this deliverable is to provide an objective, informative, and useful website to bolster security literacy amongst consumers.
 
 #### Website Deployment and Access
 ![Website Deployment and Access](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_2/Diagrams/webapp-deployment-architecture.png?raw=true)
@@ -112,7 +112,7 @@ During our project, we encountered and overcame several technical challenges:
 ### Scope Adjustments
 #### Methodology Refinement
 
-As our research progressed from Milestone 1 to Milestone 3, we refined our evaluation framework based on findings from our literature review and preliminary assessments. One significant refinement was in our evaluation criteria weighting:
+As our research progressed from Milestone 1 to Milestone 3, we refined our evaluation framework based on findings from our literature review and preliminary assessments. One significant refinement was in our evaluation criteria weighing:
 
 **Initial Weighting (Milestone 2):**
 - Security: 50%
@@ -126,7 +126,7 @@ As our research progressed from Milestone 1 to Milestone 3, we refined our evalu
 - Usability: 20%
 - Cost: 10%
 
-This refinement comes from our research ehich revealed that performance and usability factors have greater influence on security outcomes than initially estimated, as they directly impact whether users maintain recommended security configurations.
+This refinement comes from our research which revealed that performance and usability factors have greater influence on security outcomes than initially estimated, as they directly impact whether users maintain recommended security configurations.
 
 ### Team Coordination
 Our project involved a group of four members working across research, analysis, and technical implementation. We established an effective coordination system that leveraged several collaborative tools:
@@ -159,7 +159,7 @@ As this project concludes our academic capstone requirements, we've identified s
 
 ## Conclusion
 Our project was able to demonstrate that a standards backed, quantifiable security rating system can be
-achieved. Our findings from this project show that their is a greater need for regulatory guidance, pressure, and consumer advocacy to
+achieved. Our findings from this project show that there is a greater need for regulatory guidance, pressure, and consumer advocacy to
 require manufacturers to be more transparent and disclose important security features. The data shows both what could be measured from
 publicly available data and what was lacking, showing the areas where more transparency and attention from the industry is needed.
 ## Install Instructions
@@ -175,13 +175,13 @@ To download the project, run:
 
 ```sh
 git clone https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights.git
-cd Breaking-Down-ISP-Routers-Security-Privacy-Insights/react-website
+cd Breaking-Down-ISP-Routers,-Security-Privacy-Insights/react-website
 ```
 
 #### Installing Dependencies
 Once inside the `react-website` directory, install all required dependencies:
 
-**Using npm - most recomended**
+**Using npm - most recommended**
 ```sh
 npm install
 ```
