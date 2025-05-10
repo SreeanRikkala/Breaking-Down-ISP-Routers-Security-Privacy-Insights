@@ -2,7 +2,7 @@
 # Progress Report
 
 ## Overview
-This project evaluates ISP provided and compatible third party consumer routers using a quantifiable grid across our four categories: Security, Usability, Performance, and Cost.
+This project rates ISP provided and compatible third party consumer routers using an evaluation grid across our four categories: Security, Usability, Performance, and Cost. Efforts were made to refine the evaluation grid, draw conclusions and extract results from our data, complete the research paper, and display relevant information on the technical deliverable (website).
 
 ## Outcomes
 ### Summary
