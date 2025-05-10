@@ -71,8 +71,6 @@ considerations that impact consumer router choices.
 ### Detailed Outcomes
 
 - Applied evaluation criteria with weighted scoring: Security (40%), Performance (30%), Usability (20%), and Cost (10%)
-- Used Krippendorff's Alpha methodology to test consistency and minimize bias between reviewers
-  - Suggested potential improvements to evaluation grid and gaps which may contribute to lower Krippendorff Alpha results
 - Evaluated the following ISP routers:
   - Arris G34
   - Arris G54 (Comcast version)
@@ -83,6 +81,8 @@ considerations that impact consumer router choices.
   - NETGEAR CAX30
   - NETGEAR CBR750
   - TP-Link Archer AXE300
+- Used Krippendorff's Alpha methodology to test consistency and minimize bias between reviewers
+  - Suggested potential improvements to evaluation grid and gaps which may contribute to lower Krippendorff Alpha results
 - Identified critical security findings:
   - Inconsistent WPA security implementation across router models
   - Many admin interfaces lacking HTTPS encryption
