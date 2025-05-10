@@ -59,18 +59,53 @@ The technical deliverable for this project is a website containing the results o
 ![Router Hardening Example](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_2/Diagrams/RouterHardening.png?raw=true)
 
 ## Results / Findings
-### Router Security Analysis
-### Router Usability Findings
-### Performance Testing Results
-### Cost Analysis
-### Comprehensive Router Evaluation Grid
-### Actionable Security Recommendations
-### Website Implementation
+Our comprehensive evaluation of ISP router security revealed significant findings across security, performance, and
+cost dimensions.
 
-## Deliverables
+### Overview of Outcomes
+
+We successfully evaluated multiple ISP-provided and third-party consumer routers using a quantifiable scoring matrix
+based on industry standards. Our evaluation revealed important security gaps, performance variations, and cost
+considerations that impact consumer router choices.
+
+### Detailed Outcomes
+
+- Applied evaluation criteria with weighted scoring: Security (50%), Performance (25%), Usability (17%), and Cost (8%)
+- Used K-Alpha methodology to ensure consistency and minimize bias between reviewers
+- Evaluated the following ISP routers:
+ - TP-Link Archer AXE300
+ - Asus CMAX6000
+ - Motorola MT8733
+ - Arris G54 (Comcast version)
+ - Arris G54 (Charter version)
+ - NETGEAR CBR750
+ - CAX30/MG8702
+- Identified critical security findings:
+ - Inconsistent WPA security implementation across router models
+ - Many admin interfaces lacking HTTPS encryption
+ - Poor documentation of firmware update frequency and practices
+ - No documentation on encryption at rest for stored configurations
+- Documented performance characteristics:
+ - Premium routers delivered 90-100% of advertised speeds
+ - Budget models only achieved 60-80% of promised performance
+ - Higher-end models maintained sub-10ms latency
+ - Budget models showed 10-100ms latency fluctuations
+- Analyzed ISP business practices:
+ - Monthly rental fees ranging from under $5 to over $10
+ - Router restrictions limiting consumer choice
+ - Hidden fees impacting total cost of ownership
+- Created a public-facing website to share our router evaluation findings
+- Compiled a comprehensive repository of router evaluations with transparent scoring metrics
+
 
 ## Lessons Learned
 ### Technical Challenges
+During our project, we encountered and overcame several technical challenges:
+
+1. **Router Documentation Availability**: Many ISP routers lack comprehensive documentation, requiring us to develop evaluation approaches that could work with limited information.
+
+2. **Evaluation Consistency**: Creating consistent evaluation criteria across diverse router models with different feature sets required careful standardization of our metrics.
+
 ### Scope Adjustments
 #### Methodology Refinement
 
@@ -91,11 +126,33 @@ As our research progressed from Milestone 1 to Milestone 3, we refined our evalu
 This refinement comes from our research ehich revealed that performance and usability factors have greater influence on security outcomes than initially estimated, as they directly impact whether users maintain recommended security configurations.
 
 ### Team Coordination
+Our project involved a group of four members working across research, analysis, and technical implementation. We established an effective coordination system that leveraged several collaborative tools:
+
+1. **Project Management Tools**: We utilized GitHub's Kanban board to track tasks, visualize our workflow, and manage our project backlog. This allowed us to clearly see which tasks were in progress, completed, or waiting to be started.
+
+2. **Communication Channels**: Slack served as our primary communication platform for daily interactions, quick questions, and sharing resources. 
+
+3. **Regular Synchronization**: We held weekly team meetings to discuss progress, address challenges, and realign on priorities. These meetings ensured everyone remained on the same page throughout the project lifecycle.
+
+4. **Statistical Reliability Analysis**: For our router evaluations, we implemented Krippendorff's Alpha (K-Alpha) to measure inter-rater reliability. Each team member independently evaluated the same routers using our framework, and we used K-Alpha to statistically validate the consistency of our ratings across different evaluators.
+
+5. **Distributed Responsibilities**: We assigned tasks based on team members' areas of expertise - with some focusing on security research, others on evaluation framework development, and others on website implementation.
 
 ## Future Work
-### Research Extensions
-### Tool Development Opportunities
-### Industry Recommendations
+As this project concludes our academic capstone requirements, we've identified several valuable directions others could pursue to build upon our work:
+
+### Potential Research Extensions
+- **Broader Router Coverage**: Our analysis covered a limited sample of ISP routers. Future researchers could expand this to include more brands, models, and router types to create a more comprehensive security landscape.
+- **Temporal Security Analysis**: A valuable study would be examining how router security evolves over time through firmware updates and hardware revisions.
+- **User Behavior Research**: Research into how consumers actually implement router security recommendations would provide insights into the effectiveness of security education efforts.
+
+### Suggested Technical Enhancements
+- **Evaluation Automation**: The manual evaluation process we developed could be partially automated through scripted assessment tools that check for common vulnerabilities.
+- **Website Functionality Expansion**: The website framework we created could be enhanced to include user accounts, personalized recommendations, and community contributions.
+- **Integration with Existing Platforms**: Our router evaluation framework could be integrated with existing consumer product review platforms to reach a wider audience.
+
+### Industry Adoption Opportunities
+- **Security Standards Development**: Our evaluation criteria could inform the development of simplified security standards for consumer networking equipment.
 
 ## Conclusion
 
@@ -201,31 +258,19 @@ Breaking-Down-ISP-Routers-Security-Privacy-Insights/
 ├── Drafts_and_Analysis/
 ├── Drafts_and_Writing/
 ├── Ideas/
-│   └── Brainstorming/
 ├── Milestone_1/
 ├── Milestone_2/
-│   ├── Diagrams/
-│   └── paper-outline/
 ├── Milestone_3/
-│   ├── K-Alpha/
-│   ├── Research_Paper/
-│   └── Router-Evaluations/
 ├── Miscellaneous/
 ├── Presentations/
 ├── References_Citations/
 ├── Research_Materials/
-│   ├── Reviews/
-│   └── Standards/
 ├── react-website/
-│   ├── public/
-│   ├── src/
-│   ├── package.json
-│   └── package-lock.json
 └── README.md
 
 ```
 ---
 
-© 2025 {Team Name coming soon/too late}. All rights reserved.
+© 2025 BDIR. All rights reserved.
 
 This project was completed as part of CYBR 4580/8950 Capstone Project at University of Nebraska Omaha.
