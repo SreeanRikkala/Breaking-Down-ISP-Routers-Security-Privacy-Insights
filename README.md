@@ -45,7 +45,7 @@ We used PRISMA technique for screening the research papers and to achieve clear 
 Evaluation criteria and categories were formed from the literature review, standards, and documentation. The criteria were placed in a grid and weighed with a scoring system for various levels of control implementation. The resulting security section of the grid was used in the research paper for an inter-rater reliability assessment. The usability, performance, and cost sections were utilized in the website for additional information on the project website. 
 
 #### Inter-Rater Reliability Assessment
-
+In order to test the objectivity and consistency of our router evaluation criteria, we performed independent scoring of three different routers across all four members of the research group. This resulted in 12 total scoring sheets. The scoring sheets were combined into three separate grids, one for each router, and passed through an inter-rater [reliability calculator](https://www.k-alpha.org/) to determine [Krippendorff's Alpha](https://en.wikipedia.org/wiki/Krippendorff%27s_alpha) for reliability amongst raters using our evaluation grid. This data is crucial for providing a statistical measurement of the reliability of our chosen criteria.
 ### Technical Approach
 #### Summary
 The technical deliverable for this project is a website containing the results of our research and analysis of common consumer routers. This website contains easily readable information regarding our research with the intent of informing consumers of potential security flaws that may exist in their network. Additionally, this website has the results of our analysis on a sample of common consumer routers which are supported by major Internet Service Providers (ISPs) in the United States. The details of our analysis is readily available, and it involves a developed list of criteria sourced from our research. The purpose of this deliverable is to provide an objective, informative, and useful website to bolster security literacy amongst consumers.
@@ -169,7 +169,6 @@ Before setting up the project, ensure you have the following installed:
 - npm or Yarn
 
 ### Installation Instructions
-
 #### Cloning the Repository
 To download the project, run:
 
