@@ -52,7 +52,7 @@ const Footer = () => {
                     <div className="footer-links">
                         <a href="#about" className="footer-link">About</a>
                         <a href="#resources" className="footer-link">Resources</a>
-                        <a href="#" className="footer-link">Credits</a>
+                        <a href="#top" className="footer-link">Credits</a>
                     </div>
 
                     <div className="social-links">
