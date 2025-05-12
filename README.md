@@ -42,7 +42,7 @@ We used PRISMA technique for screening the research papers and to achieve clear 
 **[View Literature Review](Research_Materials)**
 
 #### Evaluation Grid
-Evaluation criteria and categories were formed from the literature review, standards, and documentation. The criteria were placed in a grid and weighed with a scoring system for various levels of control implementation. The resulting security section of the grid was used in the research paper for an inter-rater reliability assessment. The usability, performance, and cost sections were utilized in the website for additional information on the project website. 
+[Evaluation criteria and categories](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_3/Quantifiable_Security_Grid.docx) were formed from the literature review, standards, and documentation. The criteria were placed in a grid and weighed with a scoring system for various levels of control implementation. The resulting security section of the grid was used in the research paper for an inter-rater reliability assessment. The usability, performance, and cost sections were utilized in the website for additional information on the project website. 
 
 #### Inter-Rater Reliability Assessment
 In order to test the objectivity and consistency of our router evaluation criteria, we performed independent scoring of three different routers across all four members of the research group. This resulted in 12 total scoring sheets. The scoring sheets were combined into three separate grids, one for each router, and passed through an inter-rater [reliability calculator](https://www.k-alpha.org/) to determine [Krippendorff's Alpha](https://en.wikipedia.org/wiki/Krippendorff%27s_alpha) for reliability amongst raters using our evaluation grid. This data is crucial for providing a statistical measurement of the reliability of our chosen criteria.
@@ -64,7 +64,7 @@ cost dimensions.
 
 ### Overview of Outcomes
 
-We successfully[ evaluated multiple ISP-provided and third-party consumer routers](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/tree/main/Milestone_3/Router-Evaluations) using a quantifiable scoring matrix
+We successfully[ evaluated multiple ISP-provided and third-party consumer routers](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/tree/main/Milestone_3/Router-Evaluations) using a [quantifiable scoring matrix](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_3/Quantifiable_Security_Grid.docx)
 based on industry standards. Our evaluation revealed important security gaps, performance variations, and cost
 considerations that impact consumer router choices. The evaluation grid and research are documented in a [research paper](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_3/Research_Paper/ISP-Router-Security.pdf) which details our findings regarding the security category. 
 
