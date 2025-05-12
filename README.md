@@ -64,9 +64,9 @@ cost dimensions.
 
 ### Overview of Outcomes
 
-We successfully evaluated multiple ISP-provided and third-party consumer routers using a quantifiable scoring matrix
+We successfully[ evaluated multiple ISP-provided and third-party consumer routers](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/tree/main/Milestone_3/Router-Evaluations) using a quantifiable scoring matrix
 based on industry standards. Our evaluation revealed important security gaps, performance variations, and cost
-considerations that impact consumer router choices.
+considerations that impact consumer router choices. The evaluation grid and research are documented in a [research paper](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_3/Research_Paper/ISP-Router-Security.pdf) which details our findings regarding the security category. 
 
 ### Detailed Outcomes
 
@@ -81,7 +81,7 @@ considerations that impact consumer router choices.
   - NETGEAR CAX30
   - NETGEAR CBR750
   - TP-Link Archer AXE300
-- Used Krippendorff's Alpha methodology to test consistency and minimize bias between reviewers
+- Used [Krippendorff's Alpha methodology](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/tree/main/Milestone_3/K-Alpha) to test consistency and minimize bias between reviewers
   - Suggested potential improvements to evaluation grid and gaps which may contribute to lower Krippendorff Alpha results
 - Identified critical security findings:
   - Inconsistent WPA security implementation across router models
@@ -97,8 +97,9 @@ considerations that impact consumer router choices.
   - Monthly rental fees ranging from under $5 to over $10
   - Router restrictions limiting consumer choice
   - Hidden fees impacting total cost of ownership
-- Created a public-facing website to share our router evaluation findings
+- Created a [public-facing website](https://router-security.mek-tech.net/) to share our router evaluation findings
 - Compiled a comprehensive repository of router evaluations with transparent scoring metrics
+- Researched, reviewed, edited, and refined a [research paper](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Milestone_3/Research_Paper/ISP-Router-Security.pdf)
 
 
 ## Lessons Learned
