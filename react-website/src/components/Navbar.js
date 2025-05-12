@@ -44,22 +44,27 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                         <a href="#overview" className="nav-link" onClick={() => setMenuOpen(false)}>
-                            X1
+                            Overview
                         </a>
                     </li>
                     <li className="nav-item">
                         <a href="#common-vulns" className="nav-link" onClick={() => setMenuOpen(false)}>
-                            X2
+                            Vulnerabilities
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="#section3" className="nav-link" onClick={() => setMenuOpen(false)}>
-                            X3
+                        <a href="#router-evaluation" className="nav-link" onClick={() => setMenuOpen(false)}>
+                            Router Evaluations
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="#section4" className="nav-link" onClick={() => setMenuOpen(false)}>
-                            X4
+                        <a href="#resources" className="nav-link" onClick={() => setMenuOpen(false)}>
+                            Resources
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="#about" className="nav-link" onClick={() => setMenuOpen(false)}>
+                            About Us
                         </a>
                     </li>
                 </ul>

@@ -1,6 +1,4 @@
 /* ISPMarketShare.css */
-
-/* Base card styling */
 .isp-card {
     position: relative;
     background-color: white;
@@ -22,7 +20,6 @@
     height: 100%;
 }
 
-/* Graph preview styling */
 .graph-preview {
     width: 40%;
     height: 100%;
@@ -39,7 +36,7 @@
     object-fit: contain;
 }
 
-/* Card content styling */
+
 .card-content {
     width: 60%;
     padding: 2rem;
@@ -67,7 +64,6 @@
     margin-bottom: 2rem;
 }
 
-/* Read more button styled to match site aesthetic */
 .read-more-btn {
     align-self: flex-start;
     background: none;
@@ -85,13 +81,13 @@
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-/* Full-section overlay styling */
+
 .full-section-overlay {
     position: absolute;
     top: 0;
     left: 0;
-    width: calc(100% - 2rem); /* Account for padding */
-    height: auto; /* Allow it to grow based on content */
+    width: calc(100% - 2rem);
+    height: auto;
     min-height: 90%;
     max-height: 90vh;
     overflow: hidden;
@@ -154,15 +150,15 @@
     color: #666;
 }
 
-/* Side-by-side layout styling */
+
 .side-by-side-layout {
     display: flex;
     gap: 2.5rem;
-    height: calc(80vh - 180px); /* Limit height to avoid scrolling */
-    overflow: hidden; /* Prevent scrolling inside the side-by-side layout */
+    height: calc(80vh - 180px);
+    overflow: hidden;
 }
 
-/* Left side - Graph container */
+
 .expanded-graph-container {
     flex: 1;
     height: 100%;
@@ -173,7 +169,7 @@
     border-radius: 0.75rem;
 }
 
-/* Graph image */
+
 .graph-image {
     width: 100%;
     height: auto;
@@ -181,12 +177,12 @@
     object-fit: contain;
 }
 
-/* Right side - Content container */
+
 .expanded-content-container {
     flex: 1;
     display: flex;
     flex-direction: column;
-    overflow-y: auto; /* Only allow scrolling on the content side if needed */
+    overflow-y: auto;
     padding-right: 0.5rem;
 }
 
@@ -200,9 +196,8 @@
     margin-bottom: 1rem;
 }
 
-/* Table styling */
 .isp-data {
-    margin-top: auto; /* Push to bottom of container */
+    margin-top: auto;
 }
 
 .isp-table {
@@ -230,7 +225,6 @@
     border-bottom: none;
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 1100px) {
     .side-by-side-layout {
         height: auto;

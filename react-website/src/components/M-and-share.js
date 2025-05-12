@@ -1,8 +1,8 @@
 import React from 'react';
-import '../styles/ProductStyleRouterSection.css';
+import '../styles/M-and-share.css';
 import ISPMarketShare from './ISPMarketShare';
 
-const ProductStyleRouterSection = () => {
+const MAndShare = () => {
     return (
         <section className="product-router-section">
             <div className="section-header">
@@ -19,44 +19,27 @@ const ProductStyleRouterSection = () => {
 
                             <div className="methodology-categories">
                                 <div className="methodology-category">
-                                    <span className="category-name">Security (50%)</span>
+                                    <span className="category-name">Security (40%)</span>
                                 </div>
                                 <div className="methodology-category">
-                                    <span className="category-name">Performance (25%)</span>
+                                    <span className="category-name">Performance (30%)</span>
                                 </div>
                                 <div className="methodology-category">
-                                    <span className="category-name">Usability 15-20% (17%)</span>
+                                    <span className="category-name">Usability (20%)</span>
                                 </div>
                                 <div className="methodology-category">
-                                    <span className="category-name">Cost (8%)</span>
+                                    <span className="category-name">Cost (10%)</span>
                                 </div>
                             </div>
-
-                            <button className="read-more-btn">VIEW METHODOLOGY</button>
                         </div>
                     </div>
 
                     <ISPMarketShare />
                 </div>
 
-                <div className="product-row">
-                    {/* Empty Card 1 */}
-                    <div className="product-card empty-card" style={{ backgroundColor: "#f1ff73" }}>
-                        <div className="empty-card-content">
-                            <span>Empty Card</span>
-                        </div>
-                    </div>
-
-                    {/* Empty Card 2 */}
-                    <div className="product-card empty-card" style={{ backgroundColor: "#e0e0e0" }}>
-                        <div className="empty-card-content">
-                            <span>Empty Card</span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     );
 };
 
-export default ProductStyleRouterSection;
+export default MAndShare;

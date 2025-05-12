@@ -845,6 +845,22 @@
     object-fit: contain;
 }
 
+
+.page-header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-title {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .tab-header {

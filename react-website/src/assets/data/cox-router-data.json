@@ -1,5 +1,5 @@
 {
-  "date": "4/3/2025",
+  "date": "2025",
   "specs": {
     "isp": "Cox",
     "deviceName": "Panoramic Wi-Fi Gateway / Technicolor CGM4981",
@@ -17,73 +17,55 @@
           "id": "CL.OOB-006",
           "criteria": "Default Credentials",
           "description": "Are default credentials required to be changed upon initial setup?",
-          "scale": "(Yes = 10, No = 0)",
-          "result": 10,
-          "notes": "Cox requires users to change default password during setup"
+          "result": 10
         },
         {
           "id": "CL.SBOM-010",
           "criteria": "Firmware Update Frequency",
           "description": "Number of security updates per year",
-          "scale": "(≥4 = 10, 2-3 = 5, ≤1 = 0)",
-          "result": 5,
-          "notes": "Approximately 2-3 updates per year"
+          "result": 5
         },
         {
           "id": "NVD.NIST.GOV",
           "criteria": "Known Vulnerabilities (CVE)",
           "description": "Publicly disclosed vulnerabilities in past 2 years",
-          "scale": "(0 = 10, 1-2 = 7, 3-5 = 5, >5 = 0)",
-          "result": 10,
-          "notes": "No known CVEs in NVD or Cox documentation"
+          "result": 10
         },
         {
           "id": "CL.NETA-002",
           "criteria": "Encryption Support",
           "description": "WPA3 Support",
-          "scale": "(WPA3 = 10, WPA2 = 5, No WPA3 = 0)",
-          "result": 10,
-          "notes": "WPA3 with WPA2 backward compatibility"
+          "result": 10
         },
         {
           "id": "CL.OOB-008",
           "criteria": "Remote Access",
           "description": "Are Telnet, SSH, UPnP, FTP disabled by default?",
-          "scale": "(Yes = 10, No = 0)",
-          "result": 10,
-          "notes": "All remote access protocols disabled by default"
+          "result": 10
         },
         {
           "id": "CL.NETS-001",
           "criteria": "Admin Interface",
           "description": "Does the router enforce HTTPS for admin access?",
-          "scale": "(Yes = 10, No = 0)",
-          "result": 10,
-          "notes": "HTTPS enforced for admin interface"
+          "result": 10
         },
         {
           "id": "IMDA.4.3.15.1",
           "criteria": "Firewall",
           "description": "Is the firewall enabled by default?",
-          "scale": "(Yes = 10, No = 0)",
-          "result": 10,
-          "notes": "Firewall enabled by default with SPI and DoS protection"
+          "result": 10
         },
         {
           "id": "ISOLATION",
           "criteria": "Network Isolation",
           "description": "Can the guest network be isolated from the main network?",
-          "scale": "(Yes = 10, No = 0)",
-          "result": 10,
-          "notes": "Guest network completely isolated from main network"
+          "result": 10
         },
         {
           "id": "IMDA.4.3.g",
           "criteria": "Automatic Security Updates",
           "description": "Does the router support automatic security updates?",
-          "scale": "(Yes = 10, No = 0)",
-          "result": 5,
-          "notes": "Semi-automatic updates available through Cox cloud management"
+          "result": 5
         }
       ]
     },
@@ -94,33 +76,25 @@
           "id": "IMDA.GEN.OPS.10",
           "criteria": "Setup Time",
           "description": "Is the device self-installable by an end user in under 20 minutes?",
-          "scale": "(≤20 min = 10, >20 min = 0)",
-          "result": 10,
-          "notes": "Average setup time: 15 minutes"
+          "result": 10
         },
         {
           "id": "IMDA.GEN.OPS.4",
           "criteria": "Lifespan",
           "description": "Is the life expectancy of the router at least 7 years?",
-          "scale": "(≥7 years = 10, <7 years = 0)",
-          "result": 0,
-          "notes": "Estimated lifespan: 5-6 years"
+          "result": 0
         },
         {
           "id": "IMDA.GEN.OPS.11",
           "criteria": "Drivers",
           "description": "Are additional drivers other than networking drivers required?",
-          "scale": "(Yes = 0, No = 10)",
-          "result": 10,
-          "notes": "No additional drivers required"
+          "result": 10
         },
         {
           "id": "IMDA.GEN.OPS.19",
           "criteria": "Website Support",
           "description": "Is there a web site where firmware updates and documentation are available?",
-          "scale": "(Yes = 10, No = 0)",
-          "result": 10,
-          "notes": "Comprehensive support website available"
+          "result": 10
         }
       ]
     },
@@ -131,33 +105,25 @@
           "id": "PERF.1",
           "criteria": "Wi-Fi Speed",
           "description": "Maximum download & upload speeds",
-          "scale": "Mbps (≥80% of ISP speed = 10, ≤40% = 0)",
-          "result": 7,
-          "notes": "Achieves approximately 700 Mbps of advertised 1 Gbps speed"
+          "result": 7
         },
         {
           "id": "PERF.2",
           "criteria": "Signal Strength",
           "description": "Check user-reported Wi-Fi range & RSSI at distances",
-          "scale": "dBm (-30 = 10, -80 = 0)",
-          "result": 5,
-          "notes": "Weak Wi-Fi signals beyond 20ft despite 3,000 sq. ft. rating"
+          "result": 5
         },
         {
           "id": "PERF.3",
           "criteria": "Latency & Jitter",
           "description": "What are the ping times in ms?",
-          "scale": "ms (≤10ms = 10, ≥100ms = 0)",
-          "result": 0,
-          "notes": "Data unavailable in current assessment"
+          "result": 0
         },
         {
           "id": "PERF.4",
           "criteria": "Multi-Device Handling",
           "description": "Can it handle multiple devices without slowdown?",
-          "scale": "(Smooth = 10, Lag= 0)",
-          "result": 9,
-          "notes": "Strong multi-device performance with 4×4 MU-MIMO per band"
+          "result": 9
         }
       ]
     },
@@ -168,25 +134,19 @@
           "id": "COST.1",
           "criteria": "Router Rental Fee",
           "description": "What is the monthly cost vs. purchase option?",
-          "scale": "(Free = 10, $15+/mo = 0)",
-          "result": 5,
-          "notes": "$13/month rental fee"
+          "result": 5
         },
         {
           "id": "COST.2",
           "criteria": "Buyout Option",
           "description": "Can users purchase the router outright?",
-          "scale": "(Yes = 10, No = 0)",
-          "result": 0,
-          "notes": "No option to purchase outright"
+          "result": 0
         },
         {
           "id": "COST.3",
           "criteria": "Hidden Fees",
           "description": "Are there additional costs? (e.g. services fees)",
-          "scale": "(No = 10, Yes = 0)",
-          "result": 10,
-          "notes": "No hidden fees identified"
+          "result": 10
         }
       ]
     }

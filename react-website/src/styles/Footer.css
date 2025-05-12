@@ -1,64 +1,195 @@
-.footer-minimal {
-    background-color: #6c887e;
-    background-image: linear-gradient(135deg, #6c887e 0%, #7c9890 100%);
-    color: #fff;
-    padding: var(--spacing-lg) 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+.footer {
+    width: 100%;
+    padding: 40px 0 30px;
+    background-color: #607c6f;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: white;
 }
 
-.footer-container-minimal {
-    max-width: 1200px;
+.footer-container {
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 0 var(--spacing-lg);
+    padding: 0 30px;
+}
+
+.footer-content {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
+    margin-bottom: 40px;
 }
 
-.github-link-container {
-    margin-bottom: var(--spacing-md);
+.footer-left {
+    max-width: 50%;
 }
 
-.github-icon {
+.footer-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 0 15px;
+    letter-spacing: -0.5px;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+
+.footer-title:after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+}
+
+.footer-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.newsletter-form {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.email-input {
+    flex: 1;
+    height: 46px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    font-size: 15px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.subscribe-btn {
+    height: 46px;
+    padding: 0 24px;
+    background-color: #ffffff;
+    color: #607c6f;
+    font-weight: 600;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+}
+
+.subscribe-btn:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-1px);
+}
+
+.footer-divider {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 30px 0;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-link {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.social-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    color: #000;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 50%;
-    transition: all 0.3s ease;
+    width: 36px;
+    height: 36px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    margin-left: 15px;
+    transition: color 0.3s;
+    font-size: 18px;
 }
 
-.github-icon:hover {
-    background-color: #fff;
-    transform: translateY(-2px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.github-icon i {
-    font-size: 1.5rem;
-}
-
-.copyright-container {
-    margin-top: var(--spacing-sm);
-}
-
-.copyright-container p {
-    margin-bottom: 0.25rem;
-    font-size: 0.875rem;
-    color: rgba(255, 255, 255, 0.9);
-}
-
-.footer-disclaimer {
-    font-size: 0.75rem;
-    color: rgba(255, 255, 255, 0.7);
+.social-link:hover {
+    color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
-    .footer-container-minimal {
-        padding: 0 var(--spacing-md);
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-left {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-right {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .newsletter-form {
+        max-width: 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .copyright {
+        margin-bottom: 15px;
+    }
+
+    .footer-links {
+        margin-bottom: 15px;
+    }
+
+    .social-links {
+        margin-top: 10px;
+    }
+
+    .social-link {
+        margin-left: 0;
+        margin-right: 15px;
     }
 }

@@ -3,8 +3,10 @@ import '../styles/Home.css';
 import OverviewSection from './sections/OverviewSection';
 import VulnerabilitiesSection from './sections/VulnerabilitiesSection';
 import HeroSection from './sections/HeroSection';
-import ProductStyleRouterSection from '../components/ProductStyleRouterSection';
+import MAndShare from '../components/M-and-share';
 import RouterEvaluation from './sections/RouterEvaluation';
+import ResourceCenter from './sections/ResourceCenter';
+import About from "./sections/About-us";
 
 const Home = () => {
     return (
@@ -22,22 +24,12 @@ const Home = () => {
 
 
             {/* Product Style Router Section */}
-            <ProductStyleRouterSection />
+            <MAndShare />
 
+            <ResourceCenter />
 
+            <About />
 
-
-            {/* Empty Section 4 */}
-            <section id="section4" className="empty-section">
-                <div className="container">
-                    <div className="section-header">
-                        <h2>Section 4</h2>
-                    </div>
-                    <div className="empty-content">
-                        <p>empty section data goes here</p>
-                    </div>
-                </div>
-            </section>
         </div>
     );
 };
