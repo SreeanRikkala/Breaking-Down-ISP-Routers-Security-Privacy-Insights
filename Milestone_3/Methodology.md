@@ -27,10 +27,10 @@ We score four categories:
 
 | Category     | Weight |
 |--------------|--------|
-| Security     | 50%    |
-| Usability    | 17%    |
-| Performance  | 25%    |
-| Cost         | 8%     |
+| Security     | 40%    |
+| Usability    | 30%    |
+| Performance  | 20%    |
+| Cost         | 10%     |
 
 ## Weighting Justification
 Security was based on its role in the necessity for protecting data. Performance and usability have impact  on user satisfaction and cost is included as it is an important piece for some users.
