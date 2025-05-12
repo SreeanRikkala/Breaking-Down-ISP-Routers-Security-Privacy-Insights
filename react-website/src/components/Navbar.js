@@ -28,9 +28,9 @@ const Navbar = () => {
     return (
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="navbar-container">
-                <Link to="/" className="navbar-logo">
+                <a href="#top" className="navbar-logo" onClick={() => setMenuOpen(false)}>
                     <span>ISP Router Security</span>
-                </Link>
+                </a>
 
                 <div className="menu-icon" onClick={toggleMenu}>
                     <i className={menuOpen ? 'fas fa-times' : 'fas fa-bars'} />
@@ -38,9 +38,9 @@ const Navbar = () => {
 
                 <ul className={`nav-menu ${menuOpen ? 'active' : ''}`}>
                     <li className="nav-item">
-                        <Link to="/" className="nav-link" onClick={() => setMenuOpen(false)}>
+                        <a href="#top" className="nav-link" onClick={() => setMenuOpen(false)}>
                             Home
-                        </Link>
+                        </a>
                     </li>
                     <li className="nav-item">
                         <a href="#overview" className="nav-link" onClick={() => setMenuOpen(false)}>
