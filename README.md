@@ -32,9 +32,7 @@ Our literature review followed with a systematic approach to identify, analyze, 
 
 #### **PRISMA Technique**
 We used PRISMA technique for screening the research papers and to achieve clear inclusion/exclusion criteria.
-<div align="center">
-    <img src="Miscellaneous/prisma.png" alt="PRISMA Flowchart" width="60%">
-</div>
+![PRISMA Technique](https://github.com/SreeanRikkala/Breaking-Down-ISP-Routers-Security-Privacy-Insights/blob/main/Miscellaneous/prisma.png?raw=true)
 
 #### Documentation
 **[View Annotated Bibliography](References_Citations)**
