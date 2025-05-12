@@ -1,0 +1,259 @@
+{
+  "date": "2025",
+  "specs": {
+    "isp": "Charter",
+    "deviceName": "Arris G54",
+    "docsisVersion": "DOCSIS 3.1 Cable Modem + Wi-Fi 6 Router",
+    "firmwareVersion": "Latest",
+    "knownCVEs": "None found",
+    "price": "$0/month (leased)",
+    "leaseOrPurchase": "Lease only"
+  },
+  "scores": {
+    "security": {
+      "value": 8.3,
+      "details": [
+        {
+          "id": "CL.OOB-006",
+          "criteria": "Default Credentials",
+          "description": "Are default credentials required to be changed upon initial setup?",
+          "scale": "- 10 = Requires unique password on first use or uses randomized default",
+          "result": 10
+        },
+        {
+          "id": "CL.OOB-008",
+          "criteria": "Remote Access",
+          "description": "Are the following remote features disabled by default (Telnet, SSH, FTP)?",
+          "scale": "- 10 = All remote management off by default",
+          "result": 10
+        },
+        {
+          "id": "CL.OOB-008",
+          "criteria": "Remote Access",
+          "description": "Is UPnP disabled by default?",
+          "scale": "- 10 = UPnP is disabled by default",
+          "result": 0
+        },
+        {
+          "id": "CL.MI-007",
+          "criteria": "Admin Interface",
+          "description": "Is the admin interface available externally?",
+          "scale": "- 10 = Admin interface can only be accessed via LAN by default",
+          "result": 10
+        },
+        {
+          "id": "CL.MI-005",
+          "criteria": "Admin Interface",
+          "description": "Does the device include admin account lockouts?",
+          "scale": "- 5 = Admin interface logins are locked out after a specified number of failed attempts by default",
+          "result": 0
+        },
+        {
+          "id": "CL.NETS-001",
+          "criteria": "Admin Interface",
+          "description": "Does the router enforce HTTPS for admin access?",
+          "scale": "- 10 = HTTPS by default",
+          "result": 10
+        },
+        {
+          "id": "NVD.NIST.GOV",
+          "criteria": "Known Vulnerabilities (CVE Count)",
+          "description": "Publicly disclosed vulnerabilities in past 2 years",
+          "scale": "- 10 = 0 known critical CVEs OR critical CVEs patched within 3 months",
+          "result": 10
+        },
+        {
+          "id": "CL.NETA-002",
+          "criteria": "Encryption Support",
+          "description": "WPA3 or WPA2-Personal Support",
+          "scale": "- 10 = WPA3 supported and enabled by default",
+          "result": 10
+        },
+        {
+          "id": "CL.SBOM-010",
+          "criteria": "Firmware Update Frequency",
+          "description": "Number of security updates per year",
+          "scale": "- 10 = ≥4 security updates per year",
+          "result": 7
+        },
+        {
+          "id": "IMDA.4.3.g",
+          "criteria": "Automatic Security Updates",
+          "description": "Does the router support automatic security updates?",
+          "scale": "- 10 = Enabled by default",
+          "result": 3
+        },
+        {
+          "id": "IMDA.4.3.15.1",
+          "criteria": "Firewall",
+          "description": "Is the firewall enabled by default?",
+          "scale": "- 10 = Stateful firewall enabled by default, denies all inbound connections",
+          "result": 10
+        },
+        {
+          "id": "NETWORK-ISOLATION",
+          "criteria": "Network Isolation",
+          "description": "Does the device support VLANs?",
+          "scale": "- 10 = VLANs are supported",
+          "result": 0
+        },
+        {
+          "id": "NETWORK-ISOLATION",
+          "criteria": "Network Isolation",
+          "description": "Can the guest network be isolated from the main network?",
+          "scale": "- 10 = Guest network enabled by default, isolated",
+          "result": 5
+        },
+        {
+          "id": "ENCRYPTION",
+          "criteria": "Encryption Support",
+          "description": "Does the device support encryption at rest?",
+          "scale": "- 10 = Device contents are encrypted at rest",
+          "result": 0
+        },
+        {
+          "id": "LIFECYCLE",
+          "criteria": "Lifecycle",
+          "description": "Does the device support securely wiping or restoring default settings?",
+          "scale": "- 10 = Device contents can be reset to factory settings",
+          "result": 10
+        },
+        {
+          "id": "ADMIN-INTERFACE",
+          "criteria": "Admin Interface",
+          "description": "Does the admin password require 8 characters minimum?",
+          "scale": "- 10 = 8 characters or more are required for the admin password",
+          "result": 10
+        },
+        {
+          "id": "DMZ",
+          "criteria": "Network Isolation",
+          "description": "Does the device support a DMZ?",
+          "scale": "- 10 = Yes",
+          "result": 10
+        },
+        {
+          "id": "PARENTAL-CONTROLS",
+          "criteria": "Firewall",
+          "description": "Does the device support parental controls?",
+          "scale": "- 10 = Yes",
+          "result": 10
+        },
+        {
+          "id": "CL.LOG-001",
+          "criteria": "Logging",
+          "description": "Does the device log important events?",
+          "scale": "- 10 = All listed logs are collected",
+          "result": 3
+        }
+      ]
+    },
+    "usability": {
+      "value": 10.0,
+      "details": [
+        {
+          "id": "IMDA.GEN.OPS.10",
+          "criteria": "Setup Time",
+          "description": "Is the device self-installable by an end user in under 20 minutes assuming the default configuration and mode of operation?",
+          "scale": "- 10 = ≤15 minutes with app or guide",
+          "result": 10
+        },
+        {
+          "id": "IMDA.GEN.OPS.4",
+          "criteria": "Lifespan",
+          "description": "Is the life expectancy of the router at least 7 years?",
+          "scale": "- 10 = >5 years support & updates",
+          "result": 5
+        },
+        {
+          "id": "IMDA.GEN.OPS.11",
+          "criteria": "Drivers",
+          "description": "Are additional drivers other than networking drivers required for full and proper use of the device?",
+          "scale": "(Yes = 0, No = 10)",
+          "result": 10
+        },
+        {
+          "id": "IMDA.GEN.OPS.19",
+          "criteria": "Website Support",
+          "description": "Is there a web site where firmware updates and documentation are available?",
+          "scale": "- 10 = Full guides, manuals, and FAQ available",
+          "result": 10
+        }
+      ]
+    },
+    "performance": {
+      "value": 10.0,
+      "details": [
+        {
+          "id": "PERF.1",
+          "criteria": "Wi-Fi Speed",
+          "description": "Maximum download & upload speeds",
+          "scale": "- 10 = Matches or exceeds ISP plan reliably",
+          "result": 10
+        },
+        {
+          "id": "PERF.2",
+          "criteria": "Signal Strength",
+          "description": "Check user-reported Wi-Fi range & RSSI at distances",
+          "scale": "- 10 = <= -30 dbm",
+          "result": 10
+        },
+        {
+          "id": "PERF.3",
+          "criteria": "Latency & Jitter",
+          "description": "What are the increased ping times in ms?",
+          "scale": "- 10 = 10ms",
+          "result": 10
+        },
+        {
+          "id": "PERF.4",
+          "criteria": "Multi-Device Handling",
+          "description": "Can it handle multiple devices without slowdown?",
+          "scale": "- 10 = 10 or more devices with no slowdown",
+          "result": 10
+        }
+      ]
+    },
+    "cost": {
+      "value": 10.0,
+      "details": [
+        {
+          "id": "COST.1",
+          "criteria": "Router Rental Fee",
+          "description": "What is the monthly cost vs. purchase option?",
+          "scale": "- 10 = No cost or <$5/month",
+          "result": 10
+        },
+        {
+          "id": "COST.2",
+          "criteria": "Buyout Option",
+          "description": "Can users purchase the router outright?",
+          "scale": "- 10 = Full ownership or third-party router allowed",
+          "result": 10
+        },
+        {
+          "id": "COST.3",
+          "criteria": "Hidden Fees",
+          "description": "Are there additional costs? (e.g. services fees)",
+          "scale": "- 10 = No surprise costs",
+          "result": 10
+        }
+      ]
+    }
+  },
+  "finalScore": 9.0,
+  "weightDistribution": {
+    "security": 50,
+    "usability": 17,
+    "performance": 25,
+    "cost": 8
+  },
+  "calculationFormula": "Final Score = (Security × 0.4) + (Usability × 0.2) + (Performance × 0.3) + (Cost × 0.1)",
+  "calculation": "(8.3 × 0.4) + (10.0 × 0.2) + (10.0 × 0.3) + (10.0 × 0.1) = 9.3",
+  "references": [
+    { "id": "CL", "description": "CableLabs Gateway Device Security Best Common Practices" },
+    { "id": "IMDA", "description": "IMDA Security Requirements for Residential Gateways" },
+    { "id": "NVD.NIST.GOV", "description": "National Vulnerability Database" },
+    { "id": "FCC", "description": "FCC Equipment Authorization Database" }
+  ]
+}

@@ -1,0 +1,104 @@
+/* About.css */
+
+.about-section {
+    padding: 4rem 0;
+    background-color: #d7e1dc;
+    color: #333;
+    position: relative;
+}
+
+.about-section .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.about-section .section-header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.about-section .section-header h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.about-section .section-header h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: #607c6f;
+    border-radius: 3px;
+}
+
+.about-content-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-content-text {
+    text-align: center;
+}
+
+.about-description {
+    color: #4a4a4a;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.about-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:
+            linear-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.about-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        padding: 3rem 0;
+    }
+
+    .about-section .section-header h2 {
+        font-size: 1.75rem;
+    }
+
+    .about-description {
+        font-size: 1.1rem;
+        line-height: 1.7;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-section .section-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-description {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
