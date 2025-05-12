@@ -46,7 +46,7 @@ const VulnerabilitiesSection = () => {
             id: 'vuln6',
             h1: 'CVE-2022-45701: Shell Command Injection in Arris Routers',
             subh1: 'Authenticated RCE Vulnerability Without Vendor Patches',
-            description: 'Our research uncovered information about a shell command injection vulnerability affecting numerous Arris cable modem models. Security bulletins indicate this post-authentication exploitation vector allows attackers to use the \\\\${...} syntax to inject operating system commands with root privileges. According to vulnerability databases and researcher reports, neither Arris nor major ISPs have issued patches for this vulnerability, making it a significant concern for users of these widely deployed ISP-provided routers.',
+            description: 'Our research uncovered information about a shell command injection vulnerability affecting numerous Arris cable modem models. Security bulletins indicate this post-authentication exploitation vector allows attackers to use the \\$' + '{...} syntax to inject operating system commands with root privileges. According to vulnerability databases and researcher reports, neither Arris nor major ISPs have issued patches for this vulnerability, making it a significant concern for users of these widely deployed ISP-provided routers.',
             image: require('../../assets/images/AdobeStock_70682444.jpeg')
         }
     ];
